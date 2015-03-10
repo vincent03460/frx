@@ -9,143 +9,496 @@ $culture = $sf_user->getCulture();
     }
 </style>
 
-<div id="slideshow">
+<div class="banner">
+    <!--S-flash Carousel Module-->
+    <div class="flash">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="345" accesskey="index" tabindex="index" title="index">
+            <param name="movie" value="Public/Front/en/swf/en_index_new.swf">
+            <param name="quality" value="high">
+            <param name="wmode" value="transparent">
+            <embed src="Public/Front/en/swf/en_index_new.swf" width="980" height="345" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash">
+        </object>
+    </div>
+    <!--E-flash Carousel Module-->
+    <!--S-flash Carousel button module-->
+    <div class="flash-btn">
+        <ul class="cl en">
+            <li class="cur"><a class="f-b1" href="en/promotions/bonus.html"></a></li>
+            <li><a class="f-b2" href="en/promotions/discount.html"></a></li>
+            <li><a class="f-b3" href="http://account.bfsforex.com/Public/reg/l/en"></a></li>
+        </ul>
+    </div>
+    <!--E-flash Carousel button module-->
+</div>
+<div class="inner cl">
+    <div class="layer5 fl">
+        <!--S-Image ads module-->
+        <div class="addiv">
+            <div class="ad-block"><a href="en/partnership_program/Partners.html" target="_blank"><img src="Public/Front/en/img/ad1.png" alt="" /></a></div>
+            <div class="ad-block"><a href="http://account.bfsforex.com/Public/reg/l/en" target="_blank"><img src="Public/Front/en/img/ad2.png" alt="" /></a></div>
+            <div class="ad-block"><a href="en/about/Awards.html" target="_blank"><img src="Public/Front/en/img/ad3.png" alt="" /></a></div>
+        </div>
+        <!--E-Image ads module-->
+    </div>
+    <div class="layer6 fr">
+        <!--S-Account type form module-->
+        <div class="account">
+            <div class="tab-card">
+                <ul id="myTab1" class="cl">
+                    <li class="active" onclick="nTabs(this,0);"><a>Micro account</a></li>
+                    <li onclick="nTabs(this,1);"><a>Standard account</a></li>
+                    <li onclick="nTabs(this,2);"><a>Premium account</a></li>
+                    <li onclick="nTabs(this,3);"><a>STP account</a></li>
+                    <li onclick="nTabs(this,4);"><a>Discount account</a></li>
+                </ul>
+            </div>
+            <div class="tab-con">
+                <div id="myTab1_Content0">
+                    <div class="account-table fl">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td>Trading Platform</td>
+                                <td>MetaTrader 4</td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Minimum Deposit</td>
+                                <td class="gray">$5</td>
+                            </tr>
+                            <tr>
+                                <td>Leverage</td>
+                                <td>Up to 1:1000</td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Pricing Format</td>
+                                <td class="gray">5th decimal pricing </td>
+                            </tr>
+                            <tr>
+                                <td>Spreads</td>
+                                <td>Fixed. From 2 pips </td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Commissions</td>
+                                <td class="gray">No commissions.</td>
+                            </tr>
+                            <tr>
+                                <td>Welcome Bonus</td>
+                                <td>40%</td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Minimum Transaction Size</td>
+                                <td class="gray">0.01 lot (1K)</td>
+                            </tr>
+                            <tr>
+                                <td>Maximum Transaction Size</td>
+                                <td>10 lot（1000K)</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="account-txt fr">
+                        <p><span>&lt;</span>Leverage up to 1:1000;</p>
+                        <p><span>&lt;</span>$5 minimum deposit; </p>
+                        <p><span>&lt;</span>*28 currency pairs, gold, silver;</p>
+                        <p><span>&lt;</span>Minimal lot 0.01;</p>
+                        <p><span>&lt;</span>*Zero commissions on spot trading, Instant execution with no slippage;</p>
+                        <p><span>&lt;</span>*Mobile trading capability for BlackBerry and iPhone to trade on-the-go.</p>
+                    </div>
+                    <div class="account-btn cl">
+                        <a href="http://account.bfsforex.com/Public/reg/l/en">Open Live Account</a>
+                        <a href="Download/bfs4setup.exe">Download BFSforex MT4</a>
+                        <a href="en/Public/login.html">Login BFS Trading Office</a>
+                    </div>
+                </div>
+                <div id="myTab1_Content1" class="none">
+                    <div class="account-table fl">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td>Trading Platform</td>
+                                <td>MetaTrader 4</td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Minimum Deposit</td>
+                                <td class="gray">$100</td>
+                            </tr>
+                            <tr>
+                                <td>Leverage</td>
+                                <td>Up to 1:500</td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Pricing Format</td>
+                                <td class="gray">5th decimal pricing </td>
+                            </tr>
+                            <tr>
+                                <td>Spreads</td>
+                                <td>** Dynamic. </td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Commissions</td>
+                                <td class="gray">No commissions.</td>
+                            </tr>
+                            <tr>
+                                <td>Welcome Bonus</td>
+                                <td>40%</td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Minimum Transaction Size</td>
+                                <td class="gray">0.1 lot (10K)</td>
+                            </tr>
+                            <tr>
+                                <td>Maximum Transaction Size</td>
+                                <td>100 lot（10,000K)</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="account-txt fr">
+                        <p><span>&lt;</span>Leverage up to 1:500;</p>
+                        <p><span>&lt;</span>Dynamic spread from 1.8 pips;</p>
+                        <p><span>&lt;</span>$100 minimum deposit;</p>
+                        <p><span>&lt;</span>40% welcome bonus;</p>
+                        <p><span>&lt;</span>*28 currency pairs, gold, silver;</p>
+                        <p><span>&lt;</span>*Mobile trading capability for BlackBerry and iPhone to trade on-the-go;</p>
+                        <p><span>&lt;</span>*Multilingual trading, account support and live chat.</p>
+                    </div>
+                    <div class="account-btn cl">
+                        <a href="http://account.bfsforex.com/Public/reg/l/en">Open Live Account</a>
+                        <a href="Download/bfs4setup.exe">Download BFSforex MT4</a>
+                        <a href="en/Public/login.html">Login BFS Trading Office</a>
+                    </div>
+                </div>
+                <div id="myTab1_Content2" class="none">
+                    <div class="account-table fl">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td>Trading Platform</td>
+                                <td>MetaTrader 4</td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Annual equivalent rate</td>
+                                <td class="gray">7.5%</td>
+                            </tr>
+                            <tr>
+                                <td>Leverage</td>
+                                <td>Up to 1:500</td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Pricing Format</td>
+                                <td class="gray">5th decimal pricing </td>
+                            </tr>
+                            <tr>
+                                <td>Spreads</td>
+                                <td>** Dynamic. </td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Commissions</td>
+                                <td class="gray">No commissions.</td>
+                            </tr>
+                            <tr>
+                                <td>Welcome Bonus</td>
+                                <td>40%</td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Minimum Transaction Size</td>
+                                <td class="gray">0.1 lot (10K)</td>
+                            </tr>
+                            <tr>
+                                <td>Maximum Transaction Size</td>
+                                <td>Not Limited</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="account-txt fr">
+                        <p><span>&lt;</span>Annual equivalent rate 7.5%;</p>
+                        <p><span>&lt;</span>*$10,000 minimum deposit; </p>
+                        <p><span>&lt;</span>Dynamic spread from 1.6 pips;</p>
+                        <p><span>&lt;</span>*40% welcome bonus;</p>
+                        <p><span>&lt;</span>Zero commissions on spot trading, Instant execution with no slippage;</p>
+                        <p><span>&lt;</span>**28 currency pairs, gold, silver;</p>
+                        <p><span>&lt;</span>*Leverage up to 1:200;</p>
+                        <p><span>&lt;</span>*Minimal lot 0.01;</p>
+                    </div>
+                    <div class="account-btn cl">
+                        <a href="http://account.bfsforex.com/Public/reg/l/en">Open Live Account</a>
+                        <a href="Download/bfs4setup.exe">Download BFSforex MT4</a>
+                        <a href="en/Public/login.html">Login BFS Trading Office</a>
+                    </div>
+                </div>
+                <div id="myTab1_Content3" class="none">
+                    <div class="account-table fl">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td>Trading Platform</td>
+                                <td>MetaTrader 4</td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Minimum Deposit</td>
+                                <td class="gray">$10,000</td>
+                            </tr>
+                            <tr>
+                                <td>Pricing Format</td>
+                                <td>5th decimal pricing ; Interbank liquidity</td>
+                            </tr>
+                            <tr>
+                                <td class="gray">Leverage</td>
+                                <td class="gray">1:100</td>
+                            </tr>
+                            <tr>
+                                <td>Spreads</td>
+                                <td>The minimum spread for all pairs from 0 pips.</td>
+                            </tr>
 
-    <!-- SlidesJS Required: Start Slides -->
-    <!-- The container is used to define the width of the slideshow -->
-    <div class="container">
-        <div id="slides">
-            <a href="#"><img src="/images/slide4.jpg"></a>
-            <a href="#"><img src="/images/slide5.jpg"></a>
-            <a href="#"><img src="/images/slide1.jpg"></a>
-            <a href="#"><img src="/images/slide2.jpg"></a>
-            <a href="#"><img src="/images/slide3.jpg"></a>
-            <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
-            <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="account-txt fr">
+                        <p><span>&lt;</span>*$10,000 minimum deposit;</p>
+                        <p><span>&lt;</span>*28 currency pairs, gold, silver;</p>
+                        <p><span>&lt;</span>*Direct access to interbank prices and top-tier Liquidity Providers;</p>
+                        <p><span>&lt;</span>*Trading from 0.1 lots;</p>
+                        <p><span>&lt;</span>*Without stop/limit and freeze levels;</p>
+                        <p><span>&lt;</span>*Multilingual trading, account support and live chat.</p>
+                    </div>
+                    <div class="account-btn cl">
+                        <a href="http://account.bfsforex.com/Public/reg/l/en">Open Live Account</a>
+                        <a href="Download/bfs4setup.exe">Download BFSforex MT4</a>
+                        <a href="en/Public/login.html">Login BFS Trading Office</a>
+                    </div>
+                </div>
+                <div id="myTab1_Content4" class="none">
+                    <div class="account-txt" style="width:550px;">
+                        <p><span>&lt;</span>We are the first foreign exchange trader in the banking industry to offer discount accounts.</p>
+                        <p><span>&lt;</span>Unbelievable discount rate:</p>
+                        <p><span>&lt;</span>the discounted amount will be returned to the clients immediately without waiting.</p>
+                        <p><span>&lt;</span>Original Price $ 10,000 trading account<br />Discount 20%$ 8000<br />Discount 30%$ 7000<br />Discount 40%$ 6000</p>
+                        <p><span>&lt;</span>The clients choose a 60% Discount Account and deposit $10000 into it, and we’ll return $4000 to the clients’ bank card.</p>
+                    </div>
+                    <div class="account-btn cl">
+                        <a href="http://account.bfsforex.com/Public/reg/l/en">Open Live Account</a>
+                        <a href="Download/bfs4setup.exe">Download BFSforex MT4</a>
+                        <a href="en/Public/login.html">Login BFS Trading Office</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--E-Account type form module-->
+    </div>
+    <div class="layer7 fl">
+        <!--S-Platform selection module-->
+        <div class="platform">
+            <div class="tab-card">
+                <ul id="myTab2" class="cl">
+                    <li class="active" onclick="nTabs(this,0);"><a>MT4</a></li>
+                    <li onclick="nTabs(this,1);"><a>iPhone Trader</a></li>
+                    <li onclick="nTabs(this,2);"><a>Android Trader</a></li>
+                    <li onclick="nTabs(this,3);"><a>Blackberry Trader</a></li>
+                </ul>
+            </div>
+            <div class="tab-con">
+                <div id="myTab2_Content0">
+                    <div class="mt4">
+                        <h3>BFS MT4</h3>
+                        <p>BFSforex MetaTrader  offers forex traders fast, low latency, forex execution and highly competitive low interbank spreads. </p>
+                        <a href="Download/bfs4setup.exe">Download</a>
+                    </div>
+                </div>
+                <div id="myTab2_Content1" class="none">
+                    <div class="iphone">
+                        <h3>BFS iPhone Trader</h3>
+                        <p>BFSforex MT4 iPhone Trader ensures the Forex market is easily available at the touch of a button. Take full control of your trading today - Download the BFSforex MT4 iPhone Trader now!</p>
+                        <a href="https://itunes.apple.com/en/app/metatrader-4/id496212596" target="_blank">Download</a>                        </div>
+                </div>
+                <div id="myTab2_Content2" class="none">
+                    <div class="android">
+                        <h3>BFS Android Trader</h3>
+                        <p>BFSforex MT4 Android Trader ensures the Forex market is easily available at the touch of a button. Take full control of your trading today - Download the BFSforex MT4 Android Trader now!</p>
+                        <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&amp;hl=en" target="_blank">Download</a>                        </div>
+                </div>
+                <div id="myTab2_Content3" class="none">
+                    <div class="blackberry">
+                        <h3>BFS Blackberry Trader</h3>
+                        <p>BFSforex Blackberry Trader ensures the Forex market is easily available at the touch of a button. Take full control of your trading today - Download the BFSforex  MT4 BlackBerry Trader now!</p>
+                        <a href="http://appworld.blackberry.com/webstore/content/19110045/" target="_blank">Download</a>                        </div>
+                </div>
+            </div>
+        </div>
+        <!--E-Platform selection module-->
+    </div>
+    <div class="layer11 fr">
+        <!--S-BFS Video Module-->
+        <div class="video">
+            <div class="title">
+                <h2>BFSforex TV</h2>
+            </div>
+            <div id="player"></div>
+        </div>
+        <!--E-BFS Video Module-->
+    </div>
+    <div class="layer9 fl">
+        <!--S-Company News module-->
+        <div class="company-news">
+            <div class="title">
+                <h2>Company News<a href="en/News/displist.html" style="float:right;color:#C00">More</a></h2>
+            </div>
+            <div class="contect">
+                <dl>
+                    <dd class="time">January 22 ,2015</dd>
+                    <dt><a href="en/News/content/id/382.html">Swiss franc did not affect to BFSforex</a></dt>
+                    <dd class="info"></dd>
+                </dl><dl>
+                    <dd class="time">December 23 ,2014</dd>
+                    <dt><a href="en/News/content/id/363.html">Trading Suspended Notice 2014-2015</a></dt>
+                    <dd class="info"></dd>
+                </dl><dl>
+                    <dd class="time">November 27 ,2014</dd>
+                    <dt><a href="en/News/content/id/357.html">Trading Suspended Notice 2014</a></dt>
+                    <dd class="info"></dd>
+                </dl>                </div>
+        </div>
+        <!--E-Company News module-->
+    </div>
+    <div class="layer10 fl">
+        <!--S-Industry News module-->
+        <div class="forex-news">
+            <div class="title">
+                <h2>Industry News<a href="en/News/displist/cid/4.html" style="float:right;color:#C00">More</a></h2>
+            </div>
+            <div class="contect">
+                <dl>
+                    <dd class="time">November 22 ,2013</dd>
+                    <dt><a href="en/News/content/id/305.html">Canada Dollar at Weakest Since September</a></dt>
+                    <dd class="info"></dd>
+                </dl><dl>
+                    <dd class="time">November 22 ,2013</dd>
+                    <dt><a href="en/News/content/id/306.html">Yen Touches 4-Month Low After Kuroda’s Rate Pledge; Aussie Falls</a></dt>
+                    <dd class="info"></dd>
+                </dl><dl>
+                    <dd class="time">November 22 ,2013</dd>
+                    <dt><a href="en/News/content/id/307.html">Goldman Says Currency Unit Didn’t Post Third-Quarter Loss</a></dt>
+                    <dd class="info"></dd>
+                </dl>                </div>
+        </div>
+        <!--E-Industry News module-->
+    </div>
+    <div class="layer12 fr">
+        <!--S-Rates Table Module-->
+        <div class="rate">
+            <div class="title"><h3>Central Banks Interest Rates</h3></div>
+            <div class="contect">
+                <dl class="rate-head cl">
+                    <dt>Bank</dt>
+                    <dd>Rate</dd>
+                </dl>
+                <dl class="cl">
+                    <dt><span class="European"></span><em>European Central Bank</em></dt>
+                    <dd>1%</dd>
+                </dl>
+                <dl class="cl">
+                    <dt><span class="England"></span><em>Bank of England</em></dt>
+                    <dd>0.5%</dd>
+                </dl>
+                <dl class="cl">
+                    <dt><span class="Swiss"></span><em>Swiss National Bank</em></dt>
+                    <dd>0.25%</dd>
+                </dl>
+                <dl class="cl">
+                    <dt><span class="China"></span><em>Bank of China</em></dt>
+                    <dd>1%</dd>
+                </dl>
+                <dl class="cl">
+                    <dt><span class="Australia"></span><em>Bank of Australia</em></dt>
+                    <dd>4.5%</dd>
+                </dl>
+                <dl class="cl">
+                    <dt><span class="US"></span><em>U.S Federal Reserve</em></dt>
+                    <dd>0.25%</dd>
+                </dl>
+                <dl class="cl">
+                    <dt><span class="Japan"></span><em>Bank of Japan</em></dt>
+                    <dd>0.1%</dd>
+                </dl>
+                <dl class="cl">
+                    <dt><span class="Canada"></span><em>Bank of Canada</em></dt>
+                    <dd>6.31%</dd>
+                </dl>
+                <dl class="cl">
+                    <dt><span class="Russia"></span><em>Bank of Russia</em></dt>
+                    <dd>7.75%</dd>
+                </dl>
+                <dl class="cl">
+                    <dt><span class="Zealand"></span><em>Bank of New Zealand</em></dt>
+                    <dd>2.5%</dd>
+                </dl>
+            </div>
+        </div>
+        <!--E-Rates Table Module-->
+    </div>
+    <div class="clear"></div>
+    <div class="newindexaddd1">
+        <ul>
+            <li class="select">Awarded Video</li>
+            <li>The NYSE live broadcast</li>
+            <li>BFS viewpoint</li>
+        </ul>
+    </div>
+    <div class="newindexaddd2">
+        <div class="newindexsplis">
+            <div class="leftbtn btn"></div>
+            <div class="rightbtn btn"></div>
+            <div class="splis">
+                <ul>
+                </ul>
+            </div>
+        </div>
+        <div class="newindexsplis" style="display:none;">
+            <div class="leftbtn btn"></div>
+            <div class="rightbtn btn"></div>
+            <div class="splis">
+                <ul>
+                    <li>
+                        <p class="p1"><a videoname='bfsvideo-1' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-1.jpg" alt="" /></a></p>
+                        <p class="p2">BFSforex The NYSE live...</p>
+                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
+                    </li>
+                    <li>
+                        <p class="p1"><a videoname='bfsvideo-2' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-2.jpg" alt="" /></a></p>
+                        <p class="p2">BFSforex The NYSE live...</p>
+                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
+                    </li>
+                    <li>
+                        <p class="p1"><a videoname='bfsvideo-3' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-3.jpg" alt="" /></a></p>
+                        <p class="p2">BFSforex The NYSE live...</p>
+                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
+                    </li>
+                    <li>
+                        <p class="p1"><a videoname='bfsvideo-4' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-4.jpg" alt="" /></a></p>
+                        <p class="p2">BFSforex The NYSE live...</p>
+                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
+                    </li>
+                    <li>
+                        <p class="p1"><a videoname='bfsvideo-5' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-5.jpg" alt="" /></a></p>
+                        <p class="p2">BFSforex The NYSE live...</p>
+                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
+                    </li>
+                    <li>
+                        <p class="p1"><a videoname='bfsvideo-6' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-6.jpg" alt="" /></a></p>
+                        <p class="p2">BFSforex The NYSE live...</p>
+                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="newindexsplis" style="display:none;">
+            <div class="leftbtn btn"></div>
+            <div class="rightbtn btn"></div>
+            <div class="splis">
+                <ul>
+                </ul>
+            </div>
         </div>
     </div>
-    <!-- End SlidesJS Required: Start Slides -->
-
-    
-    <!-- SlidesJS Required: Link to jquery.slides.js -->
-    <script type="text/javascript" src="/js/jquery/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="/js/jquery.slides.js"></script>
-    <!-- End SlidesJS Required -->
-
-    <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
-    <script>
-        $(document).ready(function() {
-            $('#slides').slidesjs({
-                width: 940,
-                height: 380,
-                pagination: {
-                    active: true,
-                    // [boolean] Create pagination items.
-                    // You cannot use your own pagination. Sorry.
-                    effect: "fade"
-                    // [string] Can be either "slide" or "fade".
-                },
-                play: {
-                    active: true,
-                    effect: "fade",
-                    auto: true,
-                    interval: 8000,
-                    swap: true
-                }
-            });
-        });
-    </script>
-
-    <!-- End SlidesJS Required -->
-</div>
-
-<!-- EXCHANGERATES.ORG.UK LIVE FOREX RATES TICKER START -->
-<div class="marquee">
-    <script type="text/javascript">
-        var w = '940';
-        var s = '1';
-        var mbg = 'f0f0f0';
-        var bs = 'yes';
-        var bc = '000044';
-        var f = 'verdana';
-        var fs = '10px';
-        var fc = '000044';
-        var lc = '000044';
-        var lhc = 'fe9a00';
-        var vc = '000044';
-    </script>
-    <script type="text/javascript" src="http://www.currency.me.uk/remote/CUK-LFOREXRTICKER-1.php"></script>
-</div>
-<!-- EXCHANGERATES.ORG.UK LIVE FOREX RATES TICKER END -->
-
-<div id="home_middle" class="home">
-
-    <div class="col left first_col">
-        <h1><?php echo __("About") ?></h1>
-        <p style="font-size: 12px;"><?php echo __("Our professional and efficient team provides top-notch pre- and after-sales services. We handle queries on account opening, technical troubleshooting, funding instructions, trade execution and everything else you need to know with regards to your account.") ?></p>
-        <a href="/fx_cmisc" class="read_more"><?php echo __("Read More") ?></a>
-    </div>
-
-    <div class="col left second_col">
-        <h1><?php echo __("News") ?></h1>
-
-        <div id="first" class="widget-area" style="font-family: font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 20px;">
-            <ul style="list-style-type: none" class="xoxo">
-                <li id="rss-3" class="widget-container widget_rss"><h3 class="widget-title"><a class='rsswidget' href='http://www.dailyfx.com/feeds/forex_market_news' title='Syndicate this content'><img style='border:0' width='14' height='14' src='/images/rss.png' alt='RSS'/></a> <a class='rsswidget' href='http://www.dailyfx.com//feeds/forex_market_news?fmt=rss_2.0' title='Forex Market News'>DailyFX &#8211; Forex Market News</a></h3>
-                    <ul>
-                        <li>
-                            <a class='rsswidget' href='http://www.dailyfx.com/forex/fundamental/daily_briefing/daily_pieces/commodities/2014/12/16/Crude-Remains-At-Risk-On-US-Inventories-Gold-Braces-For-FOMC-Decision.html?DFXfeeds=forex:fundamental:daily_briefing:daily_pieces:commodities' title='Crude oil may remain under pressure if upcoming US Inventories Data feeds supply glut concerns, while gold faces significant volatility on the back of the Fed decision. [&hellip;]'><?php echo __("Crude Remains At Risk On US Inventories, Gold Braces For FOMC Decision") ?></a><span class="rss-date"><?php echo __("December 16, 2014") ?></span>
-                        </li>
-                        <li>
-                            <a class='rsswidget' href='http://www.dailyfx.com/forex/fundamental/us_dollar_index/daily_dollar/2014/12/16/GBP-USD-Threatens-Range-Retains-Bullish-Momentum-Despite-Soft-UK-CPI.html?DFXfeeds=forex:fundamental:us_dollar_index:daily_dollar' title='GBP/USD may continue to threaten the range-bound price action carried over from the previous month as the bullish RSI momentum gathers pace. [&hellip;]'><?php echo __("GBP/USD Threatens Range, Retains Bullish Momentum Despite Soft UK CPI") ?></a><span class="rss-date"><?php echo __("December 16, 2014") ?></span>
-                        </li>
-                        <li>
-                            <a class='rsswidget' href='http://www.dailyfx.com/forex/fundamental/article/special_report/2014/12/16/forex-russian-ruble-trading-is-still-too-risky.html?DFXfeeds=forex:fundamental:article:special_report' title='The Russian Ruble continued sharply lower despite an aggressive reaction from the Central Bank of Russia. Here’s why we would avoid holding USD/RUB positions. [&hellip;]'><?php echo __("Russian Ruble Tumbles Further - Holding RUB Positions Far too Risky") ?></a><span class="rss-date"><?php echo __("December 16, 2014") ?></span>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div> <!-- #first .widget-area -->
-    </div>
-
-    <div class="col left third_col" style="padding-top:30px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
-        <!-- <a href="" class="open_live_account"></a>
-      <a href="" class="open_demo_account"></a>
-      <a href="" class="member_login"></a>-->
-
-        <a href="#" class="icon_user" style="padding-left:5px;"></a>
-        <a href="/contact_us" class="icon_email"></a>
-
-        <a href="#" class="open_demo_account"></a>
-        <a href="#" class="open_live_account"></a>
-
-    </div>
-
-</div><!--home_middle-->
-
-<img src="/images/border_shadow.jpg"/>
-
-<div id="download_block">
-    <h1><?php echo __("Download MetaTrader 4") ?></h1>
-
-    <div class="download_col">
-        <a href="#"><img src="/images/windows.jpg"/></a>
-        <a href="#" class="donwload_link">Windows</a>
-    </div>
-
-    <div class="download_col">
-        <a href="https://itunes.apple.com/en/app/metatrader-4/id496212596?mt=8" target="_blank"><img
-                src="/images/ios.jpg"/></a>
-        <a href="https://itunes.apple.com/en/app/metatrader-4/id496212596?mt=8" target="_blank" class="donwload_link">iOS</a>
-    </div>
-
-    <div class="download_col">
-        <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4" target="_blank"><img
-                src="/images/android.jpg"/></a>
-        <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4" target="_blank"
-           class="donwload_link">Android</a>
-    </div>
-
-    <div class="clear"></div>
-
 </div>
