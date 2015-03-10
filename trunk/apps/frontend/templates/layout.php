@@ -6,8 +6,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Forex Trading | Forex Broker | Forex Platforms-BFSforex.com</title>
-    <link href="Public/Front/en/css/base.css" type="text/css" rel="stylesheet" />
-    <link href="Public/Front/en/css/model.css" type="text/css" rel="stylesheet" />
+    <link href="/css/base.css" type="text/css" rel="stylesheet" />
+    <link href="/css/model.css" type="text/css" rel="stylesheet" />
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 </head>
@@ -19,7 +19,7 @@
         <div class="layer1 fl">
             <!--S-logo Module-->
             <div class="logo">
-                <a href="index.html" title="BFS"></a>
+                <a href="/home" title="BFS"></a>
             </div>
             <!--E-logo Module-->
         </div>
