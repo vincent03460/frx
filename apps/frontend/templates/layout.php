@@ -111,18 +111,6 @@
 </script>
 <script type="text/javascript" src="/video/indexvideo/indexspwin.js"></script>
 <!--S-Global bottom of the-->
-<!--S-Live Chat-->
-<script type="text/javascript">
-    var __lc = {};
-    __lc.license = 1941741;
-
-    (function() {
-        var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-        lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-    })();
-</script>
-<!--E-Live Chat-->
 <!--S-google-->
 <script type="text/javascript">
 
