@@ -16,6 +16,15 @@ class partnershipActions extends sfActions
    */
   public function executeIndex()
   {
-    $this->forward('default', 'module');
+  }
+
+  public function executeRegionalRepresentatives()
+  {
+
+  }
+
+  public function executeWhiteLabelSolution()
+  {
+
   }
 }

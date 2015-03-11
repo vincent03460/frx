@@ -16,6 +16,41 @@ class trading_accountActions extends sfActions
    */
   public function executeIndex()
   {
-    $this->forward('default', 'module');
+  }
+
+  public function executeDepositsAndWithdrawals()
+  {
+  }
+
+  public function executeDiscountAccount()
+  {
+  }
+
+  public function executePremiumAccount()
+  {
+  }
+
+  public function executePrivacyPolicy()
+  {
+  }
+
+  public function executeRiskDisclosureStatement()
+  {
+  }
+
+  public function executeSpreads()
+  {
+  }
+
+  public function executeStandardAccount()
+  {
+  }
+
+  public function executeStpecnAccount()
+  {
+  }
+
+  public function executeTradingLeverage()
+  {
   }
 }

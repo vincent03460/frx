@@ -13,18 +13,18 @@ $culture = $sf_user->getCulture();
     <!--S-flash Carousel Module-->
     <div class="flash">
         <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="345" accesskey="index" tabindex="index" title="index">
-            <param name="movie" value="Public/Front/en/swf/en_index_new.swf">
+            <param name="movie" value="/swf/en_index_new.swf">
             <param name="quality" value="high">
             <param name="wmode" value="transparent">
-            <embed src="Public/Front/en/swf/en_index_new.swf" width="980" height="345" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash">
+            <embed src="/swf/en_index_new.swf" width="980" height="345" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash">
         </object>
     </div>
     <!--E-flash Carousel Module-->
     <!--S-flash Carousel button module-->
     <div class="flash-btn">
         <ul class="cl en">
-            <li class="cur"><a class="f-b1" href="en/promotions/bonus.html"></a></li>
-            <li><a class="f-b2" href="en/promotions/discount.html"></a></li>
+            <li class="cur"><a class="f-b1" href="/promotions"></a></li>
+            <li><a class="f-b2" href="/promotions/discountAccount"></a></li>
             <li><a class="f-b3" href="http://account.bfsforex.com/Public/reg/l/en"></a></li>
         </ul>
     </div>
@@ -34,9 +34,9 @@ $culture = $sf_user->getCulture();
     <div class="layer5 fl">
         <!--S-Image ads module-->
         <div class="addiv">
-            <div class="ad-block"><a href="en/partnership_program/Partners.html" target="_blank"><img src="Public/Front/en/img/ad1.png" alt="" /></a></div>
-            <div class="ad-block"><a href="http://account.bfsforex.com/Public/reg/l/en" target="_blank"><img src="Public/Front/en/img/ad2.png" alt="" /></a></div>
-            <div class="ad-block"><a href="en/about/Awards.html" target="_blank"><img src="Public/Front/en/img/ad3.png" alt="" /></a></div>
+            <div class="ad-block"><a href="/partnership_program" target="_blank"></a></div>
+            <div class="ad-block"><a href="http://account.bfsforex.com/Public/reg/l/en" target="_blank"></a></div>
+            <div class="ad-block"><a href="/about_us/awards" target="_blank"></a></div>
         </div>
         <!--E-Image ads module-->
     </div>
@@ -460,32 +460,32 @@ $culture = $sf_user->getCulture();
             <div class="splis">
                 <ul>
                     <li>
-                        <p class="p1"><a videoname='bfsvideo-1' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-1.jpg" alt="" /></a></p>
+                        <p class="p1"><a videoname='bfsvideo-1' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-1.jpg" alt="" /></a></p>
                         <p class="p2">BFSforex The NYSE live...</p>
                         <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
                     </li>
                     <li>
-                        <p class="p1"><a videoname='bfsvideo-2' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-2.jpg" alt="" /></a></p>
+                        <p class="p1"><a videoname='bfsvideo-2' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-2.jpg" alt="" /></a></p>
                         <p class="p2">BFSforex The NYSE live...</p>
                         <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
                     </li>
                     <li>
-                        <p class="p1"><a videoname='bfsvideo-3' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-3.jpg" alt="" /></a></p>
+                        <p class="p1"><a videoname='bfsvideo-3' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-3.jpg" alt="" /></a></p>
                         <p class="p2">BFSforex The NYSE live...</p>
                         <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
                     </li>
                     <li>
-                        <p class="p1"><a videoname='bfsvideo-4' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-4.jpg" alt="" /></a></p>
+                        <p class="p1"><a videoname='bfsvideo-4' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-4.jpg" alt="" /></a></p>
                         <p class="p2">BFSforex The NYSE live...</p>
                         <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
                     </li>
                     <li>
-                        <p class="p1"><a videoname='bfsvideo-5' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-5.jpg" alt="" /></a></p>
+                        <p class="p1"><a videoname='bfsvideo-5' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-5.jpg" alt="" /></a></p>
                         <p class="p2">BFSforex The NYSE live...</p>
                         <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
                     </li>
                     <li>
-                        <p class="p1"><a videoname='bfsvideo-6' class="lookvideobtn" href="javascript:;" ><img src="Public/Front/video/indexvideo/bfsvideo-6.jpg" alt="" /></a></p>
+                        <p class="p1"><a videoname='bfsvideo-6' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-6.jpg" alt="" /></a></p>
                         <p class="p2">BFSforex The NYSE live...</p>
                         <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
                     </li>

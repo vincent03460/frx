@@ -16,6 +16,13 @@ class promotionsActions extends sfActions
    */
   public function executeIndex()
   {
-    $this->forward('default', 'module');
+  }
+
+  public function executeDiscountAccount()
+  {
+  }
+
+  public function executeReferAFriend()
+  {
   }
 }

@@ -16,6 +16,17 @@ class trading_productsActions extends sfActions
    */
   public function executeIndex()
   {
-    $this->forward('default', 'module');
+  }
+
+  public function executeCfds()
+  {
+  }
+
+  public function executeFutures()
+  {
+  }
+
+  public function executeGoldAndSilver()
+  {
   }
 }
