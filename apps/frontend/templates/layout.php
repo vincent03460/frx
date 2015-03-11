@@ -234,7 +234,7 @@
                         <li><a href="/trading_account/stpecnAccount">STP/ECN account</a></li>
                         <li><a href="/trading_account/spreads">Spreads</a></li>
                         <li><a href="/trading_account/depositsAndWithdrawals">Deposits & Withdrawals</a></li>
-                        <li><a href="/trading_account/riskDisclosureStatement">Risk Disclosure Statement</a></li>
+                        <li><a href="/trading_account/riskDisclosureStatement">Risk Disclosure</a></li>
                         <li><a href="/trading_account/privacyPolicy">Privacy Policy</a></li>
                         <li><a href="/trading_account/tradingLeverage">Trading leverage</a></li>
                     </ul>
@@ -247,7 +247,6 @@
                         <li><a href="/about_us/forSmallInvestors">For Small Investors</a></li>
                         <li><a href="/about_us/bestIBChoice">Best IB Choice</a></li>
                         <li><a href="/about_us/hedgingInsurance">Hedging insurance</a></li>
-                        <li><a href="/about_us/Odin Capital forexTV">Odin Capital forex TV</a></li>
                         <li><a href="/about_us/safetyOfFunds">Safety of Funds</a></li>
                         <li><a href="/about_us/licensesAndRegulations">Licenses and Regulations</a></li>
                         <li><a href="/about_us/awards">Awards</a></li>
