@@ -40,7 +40,7 @@
         With its trading name known as &ldquo;Odin Capital forex&rdquo; in English, Odin Capital Market Ltd, in 2013, applied for and gained the first&mdash;rate global business license issued by the Financial Services Commission of the Republic of Mauritius under the name of Odin Capital Markets Ltd. The company&rsquo;s registration number is 114312/GBL; first&mdash;rate global business license number is C113011620 License.The trading name of Odin Capital Markets Ltd is &ldquo;Odin Capital forex.com&rdquo;. Odin Capital Markets Ltd thus became a taxpayer of Mauritius.
     </div>
     <div style="padding:20px; text-align:center">
-        <img src="/images/lisence.png"/></div>
+        </div>
     <div>
         <p class="jg_p3"><!--
 		&quot;Odin Capital Markets Ltd&quot; has the right to the management of its financial assets, the right to brokering and trading activities, as well as the trading of currency, stock, and futures. Our company conducts business in a complete legal manner and is also subject to the following laws and regulations: security law 2005 and security(permission)regulations 2007.</p>-->
