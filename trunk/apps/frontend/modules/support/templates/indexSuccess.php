@@ -272,7 +272,7 @@
 
             <p><label style="width:100px; display:inline-block;">Code:</label><input type="text" style="width:60px;" name="verify"/><img src="/images/verify.gif" width="80" height="20" style="vertical-align:top; margin-left:10px" title="Change" id="verifyImage"/></p>
 
-            <p><input style="margin-left:100px; background:#C00; color:#FFF; line-height:20px; padding:0 20px; border:1px solid #900; cursor:pointer;" type="button" value="Submit"/></p>
+            <p><input style="margin-left:100px; background:#C00; color:#FFF; line-height:20px; padding:0 20px; border:1px solid #900; cursor:pointer;" type="button" onclick="alert('Form submitted!')" value="Submit"/></p>
 
             <input type="hidden" name="__hash__" value="ac228c816ce75597a73e86e63b96f666_c7e733d61b70d83934accf718e535a48"/></form>
     </div>

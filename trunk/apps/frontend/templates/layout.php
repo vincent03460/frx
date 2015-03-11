@@ -304,11 +304,6 @@
     </div>
 </div>
 <!--/newfooter-->
-<div id="service_cnt">
-    <a class="s_red" href="" target="_blank">Register<br />Trading Office</a>
-    <a class="s_blue" href="http://www.odincapital.com" target="_blank">Login<br />Trading Office</a>
-    <a class="s_green" href="Download/OdinCapital4setup.exe" target="_blank">Download<br />Odin Capital forex MT4</a>
-</div>
 <script type="text/javascript">
     /* <![CDATA[ */
     var google_conversion_id = 990553351;
