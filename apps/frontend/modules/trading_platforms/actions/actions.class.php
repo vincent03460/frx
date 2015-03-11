@@ -16,6 +16,17 @@ class trading_platformsActions extends sfActions
    */
   public function executeIndex()
   {
-    $this->forward('default', 'module');
+  }
+
+  public function executeIphoneTrader()
+  {
+  }
+
+  public function executeAndroidTrader()
+  {
+  }
+
+  public function executeBlackberryTrader()
+  {
   }
 }

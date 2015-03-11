@@ -16,6 +16,41 @@ class about_usActions extends sfActions
    */
   public function executeIndex()
   {
-    $this->forward('default', 'module');
+  }
+
+  public function executeAntiMoneyLaundering()
+  {
+  }
+
+  public function executeBestIBChoice()
+  {
+  }
+
+  public function executeBfsForexTV()
+  {
+  }
+
+  public function executeEcnBusinessModel()
+  {
+  }
+
+  public function executeForSmallInvestors()
+  {
+  }
+
+  public function executeHedgingInsurance()
+  {
+  }
+
+  public function executeLicensesAndRegulations()
+  {
+  }
+
+  public function executeSafetyOfFunds()
+  {
+  }
+
+  public function executeAwards()
+  {
   }
 }

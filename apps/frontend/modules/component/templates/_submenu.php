@@ -11,6 +11,7 @@ $culture = $sf_user->getCulture();
         <!--E-logo Module-->
     </div>
     <div class="logo2"><span>Best STP/ECN Foreign Exchange Provider</span><font>EUROPEANCEO AWARDS 2013</font></div>
+
     <div class="layer2 fr">
         <!--S-The function navigation at the top of module-->
 
@@ -44,6 +45,7 @@ $culture = $sf_user->getCulture();
             <p><a href="http://account.bfsforex.com/Public/reg/l/en">&gt;&gt;Open Live Account</a><a href="Public/forget.html">&gt;&gt;Forgot password?</a></p>
         </div>
         <!--E-Member Login Module-->
+
     </div>
     <!-- Main Menu -->
     <div class="layer4 fr">
@@ -55,11 +57,11 @@ $culture = $sf_user->getCulture();
                     <ul>
                         <li><a href="/about_us" target="_self">About BFSforex</a></li>
                         <li><a href="/about_us/ecnBusinessModel" target="_self">ECN Business model</a></li>
-                        <li><a href="/about_us/forSmallInvesntors" target="_self">For Small Investors</a></li>
+                        <li><a href="/about_us/forSmallInvestors" target="_self">For Small Investors</a></li>
                         <li><a href="/about_us/bestIBChoice" target="_self">Best IB Choice</a></li>
                         <li><a href="/about_us/hedgingInsurance" target="_self">Hedging insurance</a></li>
                         <li><a href="/about_us/bfsForexTv" target="_self">BFSforex TV</a></li>
-                        <li><a href="en/about_us/safetyOfFunds" target="_self">Safety of Funds</a></li>
+                        <li><a href="/about_us/safetyOfFunds" target="_self">Safety of Funds</a></li>
                         <li><a href="/about_us/licensesAndRegulations" target="_self">Licenses and Regulations</a></li>
                         <li><a href="/about_us/awards" target="_self">Awards</a></li>
                         <li><a href="/about_us/antiMoneyLaundering" target="_self">Anti-Money Laundering</a></li>
@@ -105,7 +107,7 @@ $culture = $sf_user->getCulture();
                     <ul>
                         <li><a href="/partnership" target="_self">Affiliate program</a></li>
                         <li><a href="/partnership/regionalRepresentatives" target="_self">Regional Representatives</a></li>
-                        <li><a href="/partnership/whiteLableSolution" target="_self">White Label Solution</a></li>
+                        <li><a href="/partnership/whiteLabelSolution" target="_self">White Label Solution</a></li>
                     </ul>
                 </li>
                 <li><a href="javascript:viod(0)">Support</a>

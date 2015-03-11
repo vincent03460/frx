@@ -15,65 +15,41 @@
 <!--S-Global head-->
 
 <div class="header">
-    <div class="inner cl">
-        <div class="layer1 fl">
-            <!--S-logo Module-->
-            <div class="logo">
-                <a href="/home" title="BFS"></a>
-            </div>
-            <!--E-logo Module-->
-        </div>
-        <div class="logo2"><span>Best STP/ECN Foreign Exchange Provider</span><font>EUROPEANCEO AWARDS 2013</font></div>
-        <div class="layer2 fr">
-            <!--S-The function navigation at the top of module-->
-
-            <div class="topbar cl">
-                <ul>
-                    <li><a class="chat" href="https://secure.livechatinc.com/licence/1941741/open_chat.cgi?groups=3" target="_blank">Live Chat</a></li>
-                    <li class="mouseon">
-
-                        <a class="en" href="en.html">English</a>
-                        <div class="language">
-                            <a href="en.html" class="en">English</a><a href="cn.html" class="cn">简体中文</a><a href="tw.html" class="tw">繁体中文</a><a href="es.html" class="es">Español</a><a href="ar.html" class="ar">ﺎﻠﻋﺮﺒﻳﺓ</a><a href="ms.html" class="ms">Bahasa Melayu</a><a href="de.html" class="de">Deutsch</a><a href="ru.html" class="ru">Русский</a><a href="fr.html" class="fr">Français</a>
-
-                            <!--<a href="/in" class="in">Indonesia</a>-->
-                        </div>
-                    </li>
-                    <li><a class="content" href="en/support/Contact.html">Contact Us</a></li>
-                    <li><a class="sitemap" href="en/Index/sitemap.html">Site Map</a></li>
-                </ul>
-            </div>
-            <!--E-The function navigation at the top of module-->
-        </div>
-        <div class="layer3 fr">
-            <!--S-Member Login Module-->
-            <div class="login cl">
-                <form action="http://account.bfsforex.com/Public/doLogins/l/en" method="post">
-                    <input class="login-txt" type="text" name="username" value="username" id="login_username" />
-                    <input class="login-txt" type="password" name="pass2word" value="password" id="login_password" />
-                    <input type="hidden" name="jumpUrl" value="aHR0cDovL2FjY291bnQuYmZzZm9yZXguY29tL01lbWJlcg=="/>
-                    <input class="login-btn" type="submit" value="Login" />
-                    <input type="hidden" name="__hash__" value="6666cd76f96956469e7be39d750cc7d9_bf58a126bafac7d88124d75fcacef356" /></form>
-                <p><a href="http://account.bfsforex.com/Public/reg/l/en">&gt;&gt;Open Live Account</a><a href="Public/forget.html">&gt;&gt;Forgot password?</a></p>
-            </div>
-            <!--E-Member Login Module-->
-        </div>
-        <!-- Main Menu -->
-    </div>
+    <?php include_component('component', 'submenu', array("module" => $sf_context->getModuleName(), "action" => $sf_context->getActionName())) ?>
 </div>
 <!--E-Global head-->
 <!--S-Global main-->
 <div class="container">
-    <?php echo $sf_data->getRaw('sf_content') ?>
+    <div class="inner cl">
+    <?php echo $sf_data->getRaw('sf_content')?>
+
+        <div class="side">
+            <ul>
+                <li><a href="/promotions"><img src="/img/side1.png"></a></li>
+                <li><a href="/promotions/discountAccount"><img src="/img/side2.png"></a></li>
+                <li><a href="http://account.bfsforex.com/en/Public/reg"><img src="/img/side3.png"></a></li>
+                <li>
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="220" height="370" accesskey="index" tabindex="index" title="index">
+                        <param name="movie" value="/swf/side.swf">
+                        <param name="quality" value="high">
+                        <param name="wmode" value="transparent">
+                        <embed src="/swf/side.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="220" height="370">
+                    </object>
+                </li>
+
+            </ul>
+        </div>
+    </div>
 </div>
+
 <!--E-Global main-->
-<script src="Public/Front/en/js/jquery.js" type="text/javascript"></script>
-<script src="Public/Front/en/js/common.js" type="text/javascript"></script>
-<script type="text/javascript" src="Public/Front/en/js/swfobject.js"></script>
+<script src="/js/jquery.js" type="text/javascript"></script>
+<script src="/js/common.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
 <script type="text/javascript">
     var flashvars = {
-        file : '/Public/Front/en/img/flv/BFS_reports_01.flv',
-        image: '/Public/Front/en/img/flv/BFS_reporrts_01.jpg',
+        file : '/img/flv/BFS_reports_01.flv',
+        image: '/img/flv/BFS_reporrts_01.jpg',
         bufferlength : 5,
         volume : 100,
         controlbar : 'over',
@@ -82,7 +58,7 @@
         frontcolor : 'cccccc',
         lightcolor : 'ffffff',
         screencolor : 'ffffff',
-        skin:'/Public/Front/en/swf/skin.swf'
+        skin:'/swf/skin.swf'
     };
     var params = {
         bgcolor: '#ffffff',
@@ -91,7 +67,7 @@
         allowscriptaccess : 'never'
     };
     var attributes = {};
-    swfobject.embedSWF('Public/Front/en/swf/player.swf', 'player', '260', '200', '9.0.0', 'expressInstall.html', flashvars, params, attributes);
+    swfobject.embedSWF('/swf/player.swf', 'player', '260', '200', '9.0.0', 'expressInstall.html', flashvars, params, attributes);
 
     function newindexsplis(){
         for (var i = 0;i< $(".newindexaddd2 .newindexsplis").length;i++) {
@@ -150,7 +126,7 @@
     })
     $(".newindexaddd1 li").eq(1).click();
 </script>
-<script type="text/javascript" src="Public/Front/video/indexvideo/indexspwin.js"></script>
+<script type="text/javascript" src="/video/indexvideo/indexspwin.js"></script>
 <!--S-Global bottom of the-->
 <!--S-Live Chat-->
 <script type="text/javascript">
@@ -180,12 +156,12 @@
 </script>
 
 <div class="newfooterinnerd3">
-    <a href="content/Customer_Agreement.pdf">Customer Agreement</a>
-    <a href="content/Commercial_terms.pdf" target="_blank">Terms of Business</a><span></span>
-    <a href="en/trading_accounts/Statements.html">Trading and Execution Risks</a><span></span>
-    <a href="en/trading_accounts/leverage.html">Leverage</a><span></span>
-    <a href="en/trading_accounts/Privacy.html">Privacy Policy</a><span></span>
-    <a href="en/trading_accounts/Statements.html">Risk Disclosure Statement</a><span></span>
+    <a href="/content/Customer_Agreement.pdf">Customer Agreement</a>
+    <a href="/content/Commercial_terms.pdf" target="_blank">Terms of Business</a><span></span>
+    <a href="/trading_accounts/riskDisclosureStatement">Trading and Execution Risks</a><span></span>
+    <a href="/trading_accounts/leverageTrading">Leverage</a><span></span>
+    <a href="/trading_accounts/privacyPolicy">Privacy Policy</a><span></span>
+    <a href="/trading_accounts/riskDisclosureStatement">Risk Disclosure Statement</a><span></span>
 
 </div><div class="newindexrhjx">
     <div class="newindexrhjxinner">
@@ -268,69 +244,69 @@
                 <div class="d1_1d">
                     <p class="tit2">Trading Account</p>
                     <ul>
-                        <li><a href="en/trading_accounts/micro.html">Micro account</a></li>
-                        <li><a href="en/trading_accounts/standard.html">Standard account</a></li>
-                        <li><a href="en/trading_accounts/premium.html">Premium account</a></li>
-                        <li><a href="en/trading_accounts/discount.html">Discount account</a></li>
-                        <li><a href="en/trading_accounts/stp.html">STP/ECN account</a></li>
-                        <li><a href="en/trading_accounts/spread.html">Spreads</a></li>
-                        <li><a href="en/trading_accounts/deposit.html">Deposits &Withdrawals</a></li>
-                        <li><a href="en/trading_accounts/Statements.html">Risk Disclosure Statement</a></li>
-                        <li><a href="en/trading_accounts/Privacy.html">Privacy Policy</a></li>
-                        <li><a href="en/trading_accounts/leverage.html">Trading leverage</a></li>
+                        <li><a href="/trading_account">Micro account</a></li>
+                        <li><a href="/trading_account/standardAccount">Standard account</a></li>
+                        <li><a href="/trading_account/premiumAccount">Premium account</a></li>
+                        <li><a href="/trading_account/discountAccount">Discount account</a></li>
+                        <li><a href="/trading_account/stpecnAccount">STP/ECN account</a></li>
+                        <li><a href="/trading_account/spreads">Spreads</a></li>
+                        <li><a href="/trading_account/depositsAndWithdrawals">Deposits & Withdrawals</a></li>
+                        <li><a href="/trading_account/riskDisclosureStatement">Risk Disclosure Statement</a></li>
+                        <li><a href="/trading_account/privacyPolicy">Privacy Policy</a></li>
+                        <li><a href="/trading_account/tradingLeverage">Trading leverage</a></li>
                     </ul>
                 </div>
                 <div class="d1_1d">
                     <p class="tit2">About Us</p>
                     <ul>
-                        <li><a href="en/about/intro.html">About BFSforex</a></li>
-                        <li><a href="en/about/business_model.html">ECN Business model</a></li>
-                        <li><a href="en/about/Small_money.html">For Small Investors</a></li>
-                        <li><a href="en/about/Best_choice.html">Best IB Choice</a></li>
-                        <li><a href="en/about/Hedging_insurance.html">Hedging insurance</a></li>
-                        <li><a href="en/about/video.html">BFSforex TV</a></li>
-                        <li><a href="en/about/regulation.html">Safety of Funds</a></li>
-                        <li><a href="en/about/Licenses_and_Regulations.html">Licenses and Regulations</a></li>
-                        <li><a href="en/about/Awards.html">Awards</a></li>
-                        <li><a href="en/about/policy.html">Anti-Money Laundering</a></li>
+                        <li><a href="/about_us">About BFSforex</a></li>
+                        <li><a href="/about_us/ecnBusinessModel">ECN Business model</a></li>
+                        <li><a href="/about_us/forSmallInvestors">For Small Investors</a></li>
+                        <li><a href="/about_us/bestIBChoice">Best IB Choice</a></li>
+                        <li><a href="/about_us/hedgingInsurance">Hedging insurance</a></li>
+                        <li><a href="/about_us/bfsForexTV">BFSforex TV</a></li>
+                        <li><a href="/about_us/safetyOfFunds">Safety of Funds</a></li>
+                        <li><a href="/about_us/licensesAndRegulations">Licenses and Regulations</a></li>
+                        <li><a href="/about_us/awards">Awards</a></li>
+                        <li><a href="/about_us/antiMoneyLaundering">Anti-Money Laundering</a></li>
                     </ul>
                 </div>
                 <div class="d1_1d">
                     <p class="tit2">Trading Products</p>
                     <ul>
-                        <li><a href="en/trading_products/Forex.html">Forex</a></li>
-                        <li><a href="en/trading_products/metals.html">Gold & Silver</a></li>
-                        <li><a href="en/trading_products/CFD.html">CFDs</a></li>
-                        <li><a href="en/trading_products/futures.html">Futures</a></li>
+                        <li><a href="/trading_products">Forex</a></li>
+                        <li><a href="/trading_products/goldAndSilver">Gold & Silver</a></li>
+                        <li><a href="/trading_products/cfds">CFDs</a></li>
+                        <li><a href="/trading_products/futures">Futures</a></li>
                     </ul>
                     <div class="ge1"></div>
                     <p class="tit2">Trading platform</p>
                     <ul>
-                        <li><a href="en/trading_platform/mt4.html">MT4</a></li>
-                        <li><a href="en/trading_platform/iPhone.html">iPhone Trader</a></li>
-                        <li><a href="en/trading_platform/Android.html">Android Trader</a></li>
-                        <li><a href="en/trading_platform/Blackberry.html">Blackberry Trader</a></li>
+                        <li><a href="/trading_platforms">MT4</a></li>
+                        <li><a href="/trading_platforms/iphoneTrader">iPhone Trader</a></li>
+                        <li><a href="/trading_platforms/androidTrader">Android Trader</a></li>
+                        <li><a href="/trading_platforms/blackberryTrader">Blackberry Trader</a></li>
                     </ul>
                 </div>
                 <div class="d1_1d">
                     <p class="tit2">Promotions</p>
                     <ul>
-                        <li><a href="en/promotions/bonus.html">50% Welcome Bonus</a></li>
-                        <li><a href="en/promotions/refer_a_friend.html">Refer a friend</a></li>
-                        <li><a href="en/promotions/discount.html">Discount account</a></li>
+                        <li><a href="/promotions">50% Welcome Bonus</a></li>
+                        <li><a href="/promotions/referAFriend">Refer a friend</a></li>
+                        <li><a href="/promotions/discountAccount">Discount account</a></li>
                     </ul>
                     <div class="ge2"></div>
                     <p class="tit2">Partnership program</p>
                     <ul>
-                        <li><a href="en/partnership_program/Partners.html">Affiliate program</a></li>
-                        <li><a href="en/partnership_program/multiple_system.html">Multilevel Program</a></li>
-                        <li><a href="en/partnership_program/area-agent.html">Advanced Partner</a></li>
+                        <li><a href="/partnership">Affiliate program</a></li>
+                        <li><a href="/partnership/regionalRepresentatives">Regional Representatives</a></li>
+                        <li><a href="/partnership/whiteLabelSolution">White Label Solution</a></li>
                     </ul>
                     <div class="ge2"></div>
                     <p class="tit2">Support</p>
                     <ul>
-                        <li><a href="en/support/Contact.html">Contact Us</a></li>
-                        <li><a href="en/trading_accounts/leverage.html">Legal documentation</a></li>
+                        <li><a href="/support">Contact Us</a></li>
+                        <li><a href="/support/legalDocumentation">Legal documentation</a></li>
                     </ul>
                 </div>
                 <div class="clear"></div>
