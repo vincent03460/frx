@@ -99,11 +99,7 @@
                         </tr>
                         </tbody>
                     </table>
-                    <h3 class="red" style="margin-bottom: 15px;">
-                        Simple three-step immediately become Odin Capital forex Agent</h3>
-
-                    <div class="three_b">
-                        <a href="" title="reg">Register</a> <img src="/images/ib1.png"/></div>
+                    
                     <h3 class="red" style="margin-bottom: 15px;">
                         If you take the next step and sign a partnership agreement with Odin Capital forex, you&rsquo;re choosing reliability and high returns, as well as the following advantages:</h3>
                     <ul style="border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;">
