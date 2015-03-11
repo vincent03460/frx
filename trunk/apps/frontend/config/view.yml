@@ -3,10 +3,10 @@ default:
     content-type: text/html
 
   metas:
-    title:        FX-CMISC
+    title:        ODIN CAPITAL
     robots:       index, follow
-    description:  FX-CMISC
-    keywords:     FX-CMISC
+    description:  ODIN CAPITAL
+    keywords:     ODIN CAPITAL
     language:     en
 
   stylesheets:    []
