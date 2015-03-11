@@ -21,16 +21,6 @@
             In order to view all available currency pairs in the Market Watch window inside the Metatrader trading platform, just move your mouse cursor inside the Metatrader over the currency pairs located in the Market Watch window, right click your mouse on any of the currency pair symbols and select &quot;Show All&quot; from the popup menu.</p>
 
         <h3 style="margin-top:5px; line-height:30px;">
-            Account Types</h3>
-
-        <div style="margin:20px 0;">
-            <a href="/trading_account"><img src="/images/fx1.png" style="width: 132px; height: 200px;"/></a>
-            <a href="/trading_account/standardAccount"><img src="/images/fx2.png" style="width: 133px; height: 200px;"/></a>
-            <a href="/trading_account/premiumAccount"><img src="/images/fx3.png" style="width: 133px; height: 200px;"/></a>
-            <a href="/trading_account/stpecnAccount"><img src="/images/fx4.png" style="width: 133px; height: 200px;"/></a>
-            <a href="/trading_account/discountAccount"><img src="/images/fx5.png" style="width: 133px; height: 200px;"/></a>
-        </div>
-        <h3 style="margin-top:5px; line-height:30px;">
             Price Quotes</h3>
 
         <p>
