@@ -46,15 +46,15 @@
     <div class="aw_title">
         Award Nomination of EUROPEANCEO<br/>
         <font>&ldquo;Best STP/ECN Foreign Exchange Provider-2013&rdquo;</font><br/>
-        Won by BFSforex
+        Won by Odin Capital forex
     </div>
     <div class="aw_img">
         <img src="/images/awards.png"/></div>
     <div class="aw_intro">
-        BFSforex is a global financial service company, engaged in providing online trading in foreign currencies, bulk commodities, spot metal and binary options agreements for global customers with business covering Europe, Asia, the Middle East, Africa and Latin America. Following its recent expansion, BFSforex has established offices in many countries around the world. With professional technology, automatic function and low threshold, BFSforex makes more people participate in international foreign exchange transactions, which not only attract customers&rsquo; attention, but also win great praise from all circles as well as become a dazzling new star.
+        Odin Capital forex is a global financial service company, engaged in providing online trading in foreign currencies, bulk commodities, spot metal and binary options agreements for global customers with business covering Europe, Asia, the Middle East, Africa and Latin America. Following its recent expansion, Odin Capital forex has established offices in many countries around the world. With professional technology, automatic function and low threshold, Odin Capital forex makes more people participate in international foreign exchange transactions, which not only attract customers&rsquo; attention, but also win great praise from all circles as well as become a dazzling new star.
     </div>
     <div class="aw_notice">
-        At present, BFSforex is shortlisted for EUROPEANCEO &ldquo;Best STP/ECN Foreign Exchange Provider-2013&rdquo; and is hopeful to be awarded in view of the excellent performance, rapid growth and powerful leadership team. Meanwhile, senior leaders of BFSforex are invited to attend EUROPEANCEO television interview program in Royal Exchange in September 2013.
+        At present, Odin Capital forex is shortlisted for EUROPEANCEO &ldquo;Best STP/ECN Foreign Exchange Provider-2013&rdquo; and is hopeful to be awarded in view of the excellent performance, rapid growth and powerful leadership team. Meanwhile, senior leaders of Odin Capital forex are invited to attend EUROPEANCEO television interview program in Royal Exchange in September 2013.
     </div>
     <div class="aw_w">
         <p>
@@ -66,3 +66,19 @@
     <p>
         &nbsp;</p>
 </div>
+ <div class="side">
+     <ul>
+         <li><a href="/promotions"><img src="/img/side1.png"></a></li>
+         <li><a href="/promotions/discountAccount"><img src="/img/side2.png"></a></li>
+         <li><a href=""><img src="/img/side3.png"></a></li><!--
+        <li>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="220" height="370" accesskey="index" tabindex="index" title="index">
+                <param name="movie" value="/swf/side.swf">
+                <param name="quality" value="high">
+                <param name="wmode" value="transparent">
+                <embed src="/swf/side.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="220" height="370">
+            </object>
+        </li>
+-->
+     </ul>
+ </div>

@@ -26,7 +26,7 @@ if ($(".lookvideobtn").length>0) {
 		var titdiv_gbbtn = $("<div class='videoiframeinner_tit_gbbtn' >X 关闭</div>")
 		titdiv_gbbtn.appendTo(titdiv);
 
-		var iframediv_d2 = $("<div class='videoiframeinner_videowin'><iframe src='http://www.bfsforex.com/Public/Front/video/indexvideo/"+videoname+".html' scrolling='no' width='448px' height='323px' frameborder='0'></iframe></div>")
+		var iframediv_d2 = $("<div class='videoiframeinner_videowin'><iframe src='http://www.Odin Capital forex.com/Public/Front/video/indexvideo/"+videoname+".html' scrolling='no' width='448px' height='323px' frameborder='0'></iframe></div>")
 		iframediv_d2.appendTo(iframecontdiv);
 
 		//var iframediv_jsd3 = $("<div class='videoiframeinner_jieshaod3'>"+p3inner+"</div>");

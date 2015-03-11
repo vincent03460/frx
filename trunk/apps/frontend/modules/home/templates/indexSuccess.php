@@ -9,38 +9,33 @@ $culture = $sf_user->getCulture();
     }
 </style>
 
-<div class="banner">
+<!--
     <!--S-flash Carousel Module-->
-    <div class="flash">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="345" accesskey="index" tabindex="index" title="index">
-            <param name="movie" value="/swf/en_index_new.swf">
-            <param name="quality" value="high">
-            <param name="wmode" value="transparent">
-            <embed src="/swf/en_index_new.swf" width="980" height="345" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash">
-        </object>
-    </div>
+<!--
+<div class="flash">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="345" accesskey="index" tabindex="index" title="index">
+        <param name="movie" value="/swf/en_index_new.swf">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="/swf/en_index_new.swf" width="980" height="345" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash">
+    </object>
+</div>
+-->
+<div class="banner">
+
     <!--E-flash Carousel Module-->
     <!--S-flash Carousel button module-->
-    <div class="flash-btn">
+    <div class="flash-btn" style="margin-top:120px;">
         <ul class="cl en">
             <li class="cur"><a class="f-b1" href="/promotions"></a></li>
             <li><a class="f-b2" href="/promotions/discountAccount"></a></li>
-            <li><a class="f-b3" href="http://account.bfsforex.com/Public/reg/l/en"></a></li>
+            <li><a class="f-b3" href=""></a></li>
         </ul>
     </div>
     <!--E-flash Carousel button module-->
 </div>
 <div class="inner cl">
-    <div class="layer5 fl">
-        <!--S-Image ads module-->
-        <div class="addiv">
-            <div class="ad-block"><a href="/partnership_program" target="_blank"></a></div>
-            <div class="ad-block"><a href="http://account.bfsforex.com/Public/reg/l/en" target="_blank"></a></div>
-            <div class="ad-block"><a href="/about_us/awards" target="_blank"></a></div>
-        </div>
-        <!--E-Image ads module-->
-    </div>
-    <div class="layer6 fr">
+    <div class="" style="margin-top:20px;">
         <!--S-Account type form module-->
         <div class="account">
             <div class="tab-card">
@@ -105,9 +100,9 @@ $culture = $sf_user->getCulture();
                         <p><span>&lt;</span>*Mobile trading capability for BlackBerry and iPhone to trade on-the-go.</p>
                     </div>
                     <div class="account-btn cl">
-                        <a href="http://account.bfsforex.com/Public/reg/l/en">Open Live Account</a>
-                        <a href="Download/bfs4setup.exe">Download BFSforex MT4</a>
-                        <a href="en/Public/login.html">Login BFS Trading Office</a>
+                        <a href="">Open Live Account</a>
+                        <a href="Download/OdinCapital4setup.exe">Download Odin Capital forex MT4</a>
+                        <a href="">Login Odin Capital Trading Office</a>
                     </div>
                 </div>
                 <div id="myTab1_Content1" class="none">
@@ -163,9 +158,9 @@ $culture = $sf_user->getCulture();
                         <p><span>&lt;</span>*Multilingual trading, account support and live chat.</p>
                     </div>
                     <div class="account-btn cl">
-                        <a href="http://account.bfsforex.com/Public/reg/l/en">Open Live Account</a>
-                        <a href="Download/bfs4setup.exe">Download BFSforex MT4</a>
-                        <a href="en/Public/login.html">Login BFS Trading Office</a>
+                        <a href="">Open Live Account</a>
+                        <a href="Download/OdinCapital4setup.exe">Download Odin Capital forex MT4</a>
+                        <a href="">Login Odin Capital Trading Office</a>
                     </div>
                 </div>
                 <div id="myTab1_Content2" class="none">
@@ -222,9 +217,9 @@ $culture = $sf_user->getCulture();
                         <p><span>&lt;</span>*Minimal lot 0.01;</p>
                     </div>
                     <div class="account-btn cl">
-                        <a href="http://account.bfsforex.com/Public/reg/l/en">Open Live Account</a>
-                        <a href="Download/bfs4setup.exe">Download BFSforex MT4</a>
-                        <a href="en/Public/login.html">Login BFS Trading Office</a>
+                        <a href="">Open Live Account</a>
+                        <a href="Download/OdinCapital4setup.exe">Download Odin Capital forex MT4</a>
+                        <a href="">Login Odin Capital Trading Office</a>
                     </div>
                 </div>
                 <div id="myTab1_Content3" class="none">
@@ -264,9 +259,9 @@ $culture = $sf_user->getCulture();
                         <p><span>&lt;</span>*Multilingual trading, account support and live chat.</p>
                     </div>
                     <div class="account-btn cl">
-                        <a href="http://account.bfsforex.com/Public/reg/l/en">Open Live Account</a>
-                        <a href="Download/bfs4setup.exe">Download BFSforex MT4</a>
-                        <a href="en/Public/login.html">Login BFS Trading Office</a>
+                        <a href="">Open Live Account</a>
+                        <a href="Download/OdinCapital4setup.exe">Download Odin Capital forex MT4</a>
+                        <a href="">Login Odin Capital Trading Office</a>
                     </div>
                 </div>
                 <div id="myTab1_Content4" class="none">
@@ -278,9 +273,9 @@ $culture = $sf_user->getCulture();
                         <p><span>&lt;</span>The clients choose a 60% Discount Account and deposit $10000 into it, and we’ll return $4000 to the clients’ bank card.</p>
                     </div>
                     <div class="account-btn cl">
-                        <a href="http://account.bfsforex.com/Public/reg/l/en">Open Live Account</a>
-                        <a href="Download/bfs4setup.exe">Download BFSforex MT4</a>
-                        <a href="en/Public/login.html">Login BFS Trading Office</a>
+                        <a href="">Open Live Account</a>
+                        <a href="Download/OdinCapital4setup.exe">Download Odin Capital forex MT4</a>
+                        <a href="">Login Odin Capital Trading Office</a>
                     </div>
                 </div>
             </div>
@@ -301,27 +296,27 @@ $culture = $sf_user->getCulture();
             <div class="tab-con">
                 <div id="myTab2_Content0">
                     <div class="mt4">
-                        <h3>BFS MT4</h3>
-                        <p>BFSforex MetaTrader  offers forex traders fast, low latency, forex execution and highly competitive low interbank spreads. </p>
-                        <a href="Download/bfs4setup.exe">Download</a>
+                        <h3>Odin Capital MT4</h3>
+                        <p>Odin Capital forex MetaTrader  offers forex traders fast, low latency, forex execution and highly competitive low interbank spreads. </p>
+                        <a href="Download/OdinCapital4setup.exe">Download</a>
                     </div>
                 </div>
                 <div id="myTab2_Content1" class="none">
                     <div class="iphone">
-                        <h3>BFS iPhone Trader</h3>
-                        <p>BFSforex MT4 iPhone Trader ensures the Forex market is easily available at the touch of a button. Take full control of your trading today - Download the BFSforex MT4 iPhone Trader now!</p>
+                        <h3>Odin Capital iPhone Trader</h3>
+                        <p>Odin Capital forex MT4 iPhone Trader ensures the Forex market is easily available at the touch of a button. Take full control of your trading today - Download the Odin Capital forex MT4 iPhone Trader now!</p>
                         <a href="https://itunes.apple.com/en/app/metatrader-4/id496212596" target="_blank">Download</a>                        </div>
                 </div>
                 <div id="myTab2_Content2" class="none">
                     <div class="android">
-                        <h3>BFS Android Trader</h3>
-                        <p>BFSforex MT4 Android Trader ensures the Forex market is easily available at the touch of a button. Take full control of your trading today - Download the BFSforex MT4 Android Trader now!</p>
+                        <h3>Odin Capital Android Trader</h3>
+                        <p>Odin Capital forex MT4 Android Trader ensures the Forex market is easily available at the touch of a button. Take full control of your trading today - Download the Odin Capital forex MT4 Android Trader now!</p>
                         <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&amp;hl=en" target="_blank">Download</a>                        </div>
                 </div>
                 <div id="myTab2_Content3" class="none">
                     <div class="blackberry">
-                        <h3>BFS Blackberry Trader</h3>
-                        <p>BFSforex Blackberry Trader ensures the Forex market is easily available at the touch of a button. Take full control of your trading today - Download the BFSforex  MT4 BlackBerry Trader now!</p>
+                        <h3>Odin Capital Blackberry Trader</h3>
+                        <p>Odin Capital forex Blackberry Trader ensures the Forex market is easily available at the touch of a button. Take full control of your trading today - Download the Odin Capital forex  MT4 BlackBerry Trader now!</p>
                         <a href="http://appworld.blackberry.com/webstore/content/19110045/" target="_blank">Download</a>                        </div>
                 </div>
             </div>
@@ -329,33 +324,33 @@ $culture = $sf_user->getCulture();
         <!--E-Platform selection module-->
     </div>
     <div class="layer11 fr">
-        <!--S-BFS Video Module-->
+        <!--S-Odin Capital Video Module-->
         <div class="video">
             <div class="title">
-                <h2>BFSforex TV</h2>
+                <h2>Odin Capital forex TV</h2>
             </div>
             <div id="player"></div>
         </div>
-        <!--E-BFS Video Module-->
+        <!--E-Odin Capital Video Module-->
     </div>
     <div class="layer9 fl">
         <!--S-Company News module-->
         <div class="company-news">
             <div class="title">
-                <h2>Company News<a href="en/News/displist.html" style="float:right;color:#C00">More</a></h2>
+                <h2>Company News<a href="#" style="float:right;color:#C00">More</a></h2>
             </div>
             <div class="contect">
                 <dl>
                     <dd class="time">January 22 ,2015</dd>
-                    <dt><a href="en/News/content/id/382.html">Swiss franc did not affect to BFSforex</a></dt>
+                    <dt><a href="#">Swiss franc did not affect to Odin Capital forex</a></dt>
                     <dd class="info"></dd>
                 </dl><dl>
                     <dd class="time">December 23 ,2014</dd>
-                    <dt><a href="en/News/content/id/363.html">Trading Suspended Notice 2014-2015</a></dt>
+                    <dt><a href="#">Trading Suspended Notice 2014-2015</a></dt>
                     <dd class="info"></dd>
                 </dl><dl>
                     <dd class="time">November 27 ,2014</dd>
-                    <dt><a href="en/News/content/id/357.html">Trading Suspended Notice 2014</a></dt>
+                    <dt><a href="#">Trading Suspended Notice 2014</a></dt>
                     <dd class="info"></dd>
                 </dl>                </div>
         </div>
@@ -365,20 +360,20 @@ $culture = $sf_user->getCulture();
         <!--S-Industry News module-->
         <div class="forex-news">
             <div class="title">
-                <h2>Industry News<a href="en/News/displist/cid/4.html" style="float:right;color:#C00">More</a></h2>
+                <h2>Industry News<a href="en/#" style="float:right;color:#C00">More</a></h2>
             </div>
             <div class="contect">
                 <dl>
                     <dd class="time">November 22 ,2013</dd>
-                    <dt><a href="en/News/content/id/305.html">Canada Dollar at Weakest Since September</a></dt>
+                    <dt><a href="#">Canada Dollar at Weakest Since September</a></dt>
                     <dd class="info"></dd>
                 </dl><dl>
                     <dd class="time">November 22 ,2013</dd>
-                    <dt><a href="en/News/content/id/306.html">Yen Touches 4-Month Low After Kuroda’s Rate Pledge; Aussie Falls</a></dt>
+                    <dt><a href="#">Yen Touches 4-Month Low After Kuroda’s Rate Pledge; Aussie Falls</a></dt>
                     <dd class="info"></dd>
                 </dl><dl>
                     <dd class="time">November 22 ,2013</dd>
-                    <dt><a href="en/News/content/id/307.html">Goldman Says Currency Unit Didn’t Post Third-Quarter Loss</a></dt>
+                    <dt><a href="#">Goldman Says Currency Unit Didn’t Post Third-Quarter Loss</a></dt>
                     <dd class="info"></dd>
                 </dl>                </div>
         </div>
@@ -437,68 +432,5 @@ $culture = $sf_user->getCulture();
         </div>
         <!--E-Rates Table Module-->
     </div>
-    <div class="clear"></div>
-    <div class="newindexaddd1">
-        <ul>
-            <li class="select">Awarded Video</li>
-            <li>The NYSE live broadcast</li>
-            <li>BFS viewpoint</li>
-        </ul>
-    </div>
-    <div class="newindexaddd2">
-        <div class="newindexsplis">
-            <div class="leftbtn btn"></div>
-            <div class="rightbtn btn"></div>
-            <div class="splis">
-                <ul>
-                </ul>
-            </div>
-        </div>
-        <div class="newindexsplis" style="display:none;">
-            <div class="leftbtn btn"></div>
-            <div class="rightbtn btn"></div>
-            <div class="splis">
-                <ul>
-                    <li>
-                        <p class="p1"><a videoname='bfsvideo-1' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-1.jpg" alt="" /></a></p>
-                        <p class="p2">BFSforex The NYSE live...</p>
-                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
-                    </li>
-                    <li>
-                        <p class="p1"><a videoname='bfsvideo-2' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-2.jpg" alt="" /></a></p>
-                        <p class="p2">BFSforex The NYSE live...</p>
-                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
-                    </li>
-                    <li>
-                        <p class="p1"><a videoname='bfsvideo-3' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-3.jpg" alt="" /></a></p>
-                        <p class="p2">BFSforex The NYSE live...</p>
-                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
-                    </li>
-                    <li>
-                        <p class="p1"><a videoname='bfsvideo-4' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-4.jpg" alt="" /></a></p>
-                        <p class="p2">BFSforex The NYSE live...</p>
-                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
-                    </li>
-                    <li>
-                        <p class="p1"><a videoname='bfsvideo-5' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-5.jpg" alt="" /></a></p>
-                        <p class="p2">BFSforex The NYSE live...</p>
-                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
-                    </li>
-                    <li>
-                        <p class="p1"><a videoname='bfsvideo-6' class="lookvideobtn" href="javascript:;" ><img src="/video/indexvideo/bfsvideo-6.jpg" alt="" /></a></p>
-                        <p class="p2">BFSforex The NYSE live...</p>
-                        <p class="p3">Fresh Forex News from New York NYSE by BFSforex</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="newindexsplis" style="display:none;">
-            <div class="leftbtn btn"></div>
-            <div class="rightbtn btn"></div>
-            <div class="splis">
-                <ul>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <div class="clear">
 </div>

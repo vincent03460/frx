@@ -26,10 +26,6 @@ class about_usActions extends sfActions
   {
   }
 
-  public function executeBfsForexTV()
-  {
-  }
-
   public function executeEcnBusinessModel()
   {
   }

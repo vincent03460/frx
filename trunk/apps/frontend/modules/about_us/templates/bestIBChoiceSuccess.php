@@ -5,7 +5,7 @@
         &nbsp;</p>
 
     <div style="margin-bottom: 10px; border-top: #eee 1px solid; border-right: #eee 1px solid; background: #f5f5f5; border-bottom: #eee 1px solid; padding-bottom: 15px; padding-top: 15px; padding-left: 15px; border-left: #eee 1px solid; line-height: 24px; padding-right: 15px">
-        BFSforex has a deep knowledge of our partner, understands and values the requirements of our partner, and considers for expanding the market and maximizing the interests from the point of view of the partner, becoming IB&rsquo;s favorite broker in the market.
+        Odin Capital forex has a deep knowledge of our partner, understands and values the requirements of our partner, and considers for expanding the market and maximizing the interests from the point of view of the partner, becoming IB&rsquo;s favorite broker in the market.
     </div>
     <div style="font-size: 14px; background: url(/images/121129071424684816bb3k5.png) no-repeat 10px center; padding-left: 30px; line-height: 35px">
         With the minimum amount of deposit being 5 dollars, the ultra-low investment threshold is convenient for developing clients;
@@ -44,5 +44,21 @@
         Flexible and diverse deposit and withdrawal methods, with at least one method being suitable for you.
     </div>
     <div style="margin-top: 10px">
-        <a href="/partnership_program"><img alt="" src="/images/121210022012827447mgcnc.png" style="height: 41px; width: 250px"/></a></div>
+        <a href="/partnership"><img alt="" src="/images/121210022012827447mgcnc.png" style="height: 41px; width: 250px"/></a></div>
+</div>
+<div class="side">
+    <ul>
+        <li><a href="/promotions"><img src="/img/side1.png"></a></li>
+        <li><a href="/promotions/discountAccount"><img src="/img/side2.png"></a></li>
+        <li><a href=""><img src="/img/side3.png"></a></li><!--
+        <li>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="220" height="370" accesskey="index" tabindex="index" title="index">
+                <param name="movie" value="/swf/side.swf">
+                <param name="quality" value="high">
+                <param name="wmode" value="transparent">
+                <embed src="/swf/side.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="220" height="370">
+            </object>
+        </li>
+-->
+    </ul>
 </div>

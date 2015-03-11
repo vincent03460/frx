@@ -21,8 +21,8 @@ body { font-size:12px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 .fr { float:right;}
 .a_link { text-decoration:underline; color:#F00;}
 /**S-全局头部**/
-.header { border-bottom:4px solid #CA4E4E; padding-bottom:10px; background:url(../images/header_line.jpg) center bottom repeat-x;}
-.header .inner { background:url(../images/header.png) center top no-repeat;}
+.header { border-bottom:4px solid #CA4E4E; padding-bottom:10px; background:url(/images/header_line.jpg) center bottom repeat-x;}
+.header .inner { background:url(/images/header.png) center top no-repeat;}
 /**S-全局主体**/
 .banner { background:#f5f5f5;}
 .container { padding:0 0 20px;}
@@ -49,11 +49,11 @@ body { font-size:12px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 #service_cnt{position:fixed!important;position:absolute;right:0;top:210px;top:expression(offsetParent.scrollTop+offsetParent.clientHeight-500);cursor:pointer;z-index:999; float:right; width:75px;}
 #service_cnt a{display:block; position:absolute; right:0; width:75px; height:32px; text-align:center; color:#fff; line-height:14px; padding-top:33px;}
 #service_cnt a:hover{width:90px; text-decoration:none;}
-#service_cnt .s_red{background:url(../images/s_red.png) no-repeat center 5px #b22325; top:0;}
+#service_cnt .s_red{background:url(/images/s_red.png) no-repeat center 5px #b22325; top:0;}
 #service_cnt .s_red:hover{background-color:#c22c2e;}
-#service_cnt .s_blue{background:url(../images/s_blue.png) no-repeat center 5px #539cbf; top:65px;}
+#service_cnt .s_blue{background:url(/images/s_blue.png) no-repeat center 5px #539cbf; top:65px;}
 #service_cnt .s_blue:hover{background-color:#5bacd2;}
-#service_cnt .s_green{background:url(../images/s_green.png) no-repeat center 5px #a0ab10; top:130px;}
+#service_cnt .s_green{background:url(/images/s_green.png) no-repeat center 5px #a0ab10; top:130px;}
 #service_cnt .s_green:hover{background-color:#acb71b;}
 /**S-布局结构块**/
 .layer1, .layer2, .layer3, .layer4, .layer5, .layer6, .layer7, .layer8, .layer9, .layer10, .layer11, .layer12, .layer13, .layer14, .layer15, .layer16, .layer17 { display:inline;}
@@ -87,10 +87,10 @@ body { font-size:12px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 .newindexaddd2{width:100%;height:180px;padding:15px 0px;}
 
 .newindexaddd2 .newindexsplis{width:100%;height:180px;overflow:hidden;position: relative;}
-.newindexaddd2 .newindexsplis .btn{width:11px;height:180px;background-repeat:no-repeat;background-image: url(../images/newindexspbtn.png);
+.newindexaddd2 .newindexsplis .btn{width:11px;height:180px;background-repeat:no-repeat;background-image: url(/images/newindexspbtn.png);
 	background-color: #dddddd;position:absolute;top:0px;cursor: pointer;
 	}
-.newindexaddd2 .newindexsplis .btn.select{background-image: url(../images/newindexspbtn2.png);}
+.newindexaddd2 .newindexsplis .btn.select{background-image: url(/images/newindexspbtn2.png);}
 .newindexaddd2 .newindexsplis .rightbtn{background-position: -11px 81px;right:0px;}
 .newindexaddd2 .newindexsplis .leftbtn {background-position: 0px 81px;left:0px;}
 .newindexaddd2 .newindexsplis .splis{width:900px;margin:0px auto;height:180px;overflow-x:hidden;overflow-y:hidden;}
@@ -98,7 +98,7 @@ body { font-size:12px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 .newindexaddd2 .newindexsplis .splis li{float:left;width:198px;height:142px;margin-right:35px;}
 .newindexaddd2 .newindexsplis .splis .p1{width:198px;height:114px;}
 .newindexaddd2 .newindexsplis .splis .p1 img{width:198px;height:114px;}
-.newindexaddd2 .newindexsplis .splis .p2{width:178px;background:url(../images/newindexspbanner2.png) 0px 7px no-repeat;height:16px;line-height:16px;padding:7px 0px 7px 20px;
+.newindexaddd2 .newindexsplis .splis .p2{width:178px;background:url(/images/newindexspbanner2.png) 0px 7px no-repeat;height:16px;line-height:16px;padding:7px 0px 7px 20px;
 	}
 .newindexaddd2 .newindexsplis .splis .p2 {font-weight: bold;color:#115979;font-size:14px;}
 .newindexaddd2 .newindexsplis .splis .p3{color:#000;line-height:16px;display:block;}
@@ -118,10 +118,10 @@ body { font-size:12px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 .newindexrhjxinner .ul1 li .d2{padding-top:10px;}
 .newindexrhjxinner .ul1 li .d2 .d2_p1{float:left;font-size:12px;}
 .newindexrhjxinner .ul1 li .d2  a{color:#cc0000;float:right;text-decoration: underline;font-size:12px;}
-.newindexrhjxinner .huojianghezuo1{background:url(../images/newindexspbanner3_1.png) 0 0 no-repeat #cc0000;}
-.newindexrhjxinner .huojianghezuo2{background:url(../images/newindexspbanner3_2.png) 0 0 no-repeat #cc0000;}
-.newindexrhjxinner .huojianghezuo3{background:url(../images/newindexspbanner3_3.png) 0 0 no-repeat #cc0000;}
-.newindexrhjxinner .huojianghezuo4{background:url(../images/newindexspbanner3_4.png) 0 0 no-repeat #cc0000;}
+.newindexrhjxinner .huojianghezuo1{background:url(/images/newindexspbanner3_1.png) 0 0 no-repeat #cc0000;}
+.newindexrhjxinner .huojianghezuo2{background:url(/images/newindexspbanner3_2.png) 0 0 no-repeat #cc0000;}
+.newindexrhjxinner .huojianghezuo3{background:url(/images/newindexspbanner3_3.png) 0 0 no-repeat #cc0000;}
+.newindexrhjxinner .huojianghezuo4{background:url(/images/newindexspbanner3_4.png) 0 0 no-repeat #cc0000;}
 
 .newfooter{width:100%;background: #fff;padding:0px 0px 20px;}
 .newfooterinner{width:980px;margin:0px auto;}
@@ -142,17 +142,17 @@ body { font-size:12px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 
 .newfooterinner .d1 .d1_2{float:right;padding-right:40px;}
 .newfooterinner .d1 .d1_2 .d2_d1{width:170px;}
-.newfooterinner .d1 .d1_2 .d2_d1 .logod{width:128px;height:155px;margin:0px auto;background:url(../images/newlogo1.png) 0 0 no-repeat;
+.newfooterinner .d1 .d1_2 .d2_d1 .logod{width:128px;height:155px;margin:0px auto;background:url(/images/newlogo1.png) 0 0 no-repeat;
 	}
 .newfooterinner .d1 .d1_2 .d2_d1 .p1{text-align: center;color:#666666;line-height:18px;padding:15px 0px;}
 .newfooterinner .d1 .d1_2 .d2_d1 .btn{text-align: center;height:18px;width:100%;}
 .newfooterinner .d1 .d1_2 .d2_d1 .btn a{display:inline-block;width:23px;height:18px;background-repeat: no-repeat;
 	background-position: 0px 0px;margin:0px 5px;
 	}
-.newfooterinner .d1 .d1_2 .d2_d1 .btn a.a1{background-image: url(../images/voice-icon1_1.png);}
-.newfooterinner .d1 .d1_2 .d2_d1 .btn a.a2{background-image: url(../images/voice-icon1_2.png);}
-.newfooterinner .d1 .d1_2 .d2_d1 .btn a.a3{background-image: url(../images/voice-icon1_3.png);}
-.newfooterinner .d1 .d1_2 .d2_d1 .btn a.a4{background-image: url(../images/voice-icon1_4.png);}
+.newfooterinner .d1 .d1_2 .d2_d1 .btn a.a1{background-image: url(/images/voice-icon1_1.png);}
+.newfooterinner .d1 .d1_2 .d2_d1 .btn a.a2{background-image: url(/images/voice-icon1_2.png);}
+.newfooterinner .d1 .d1_2 .d2_d1 .btn a.a3{background-image: url(/images/voice-icon1_3.png);}
+.newfooterinner .d1 .d1_2 .d2_d1 .btn a.a4{background-image: url(/images/voice-icon1_4.png);}
 .newfooterinner .d2{color:#666;padding:20px 0px;}
 .newfooterinner .d2 span{color:#cc0000;}
 /*
@@ -161,7 +161,7 @@ body { font-size:12px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 */
 .newfooterinnerd3{text-align: center;padding:10px 0px;width:980px;margin:0px auto;border-top:1px dotted #cc0000;}
 .newfooterinnerd3 a{font-weight:bold;color:#666;display:inline-block;height:18px;line-height:18px;}
-.newfooterinnerd3 span{background: url(../images/newindexbottom1.png) 0px 12px no-repeat;display:inline-block;width:2px;height:18px;line-height:18px;margin:0px 10px;}
+.newfooterinnerd3 span{background: url(/images/newindexbottom1.png) 0px 12px no-repeat;display:inline-block;width:2px;height:18px;line-height:18px;margin:0px 10px;}
 
 .videoiframecengbg{position:fixed;width:100%;height:100%; filter:alpha(opacity=70);opacity: 0.7;
 	background:#000;left:0px;top:0px;z-index:700;
@@ -190,7 +190,7 @@ body { font-size:12px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 .xjA_d2{font-size: 20px;color:#444;text-align: center;}
 .xjA_d3{font-size:16px;color:#666;text-align: center;}
 .xjA_d3 span{font-size:18px;color:#cc0000;}
-.xjA_btn1{width:486px;height:46px;background:url(../images/xjAbtn1.png) 0 0 no-repeat;color:#fff;text-align: center;font-size:20px;line-height:46px;display: block;margin:35px auto 55px;}
+.xjA_btn1{width:486px;height:46px;background:url(/images/xjAbtn1.png) 0 0 no-repeat;color:#fff;text-align: center;font-size:20px;line-height:46px;display: block;margin:35px auto 55px;}
 .xjA_d4{width:813px;border:1px solid #ddd;}
 .xjA_d4_1{width:760px;margin:0px auto;padding:15px 0px 15px 16px;color:#cc0000;font-size:18px;border-bottom:1px solid #ddd;}
 .xjA_d4_2{padding:10px 0px;}
@@ -285,11 +285,11 @@ body { font-size:12px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 .rongyujiangxiangyyjxd2 li .d2{padding-top:10px;}
 .rongyujiangxiangyyjxd2 li .d2 .d2_p1{float:left;font-size:12px;}
 .rongyujiangxiangyyjxd2 li .d2  a{color:#cc0000;float:right;text-decoration: underline;font-size:12px;}
-.rongyujiangxiangyyjxd2 .huojianghezuo1{background:url(../images/newindexspbanner3_1.png) 0 0 no-repeat #cc0000;}
-.rongyujiangxiangyyjxd2 .huojianghezuo2{background:url(../images/newindexspbanner3_2.png) 0 0 no-repeat #cc0000;}
-.rongyujiangxiangyyjxd2 .huojianghezuo3{background:url(../images/newindexspbanner3_3.png) 0 0 no-repeat #cc0000;}
-.rongyujiangxiangyyjxd2 .huojianghezuo4{background:url(../images/newindexspbanner3_4.png) 0 0 no-repeat #cc0000;}
-.rongyujiangxiangyyjxd2 .huojianghezuo5{background:url(../images/newindexspbanner3_5.png) 0 0 no-repeat #cc0000;}
+.rongyujiangxiangyyjxd2 .huojianghezuo1{background:url(/images/newindexspbanner3_1.png) 0 0 no-repeat #cc0000;}
+.rongyujiangxiangyyjxd2 .huojianghezuo2{background:url(/images/newindexspbanner3_2.png) 0 0 no-repeat #cc0000;}
+.rongyujiangxiangyyjxd2 .huojianghezuo3{background:url(/images/newindexspbanner3_3.png) 0 0 no-repeat #cc0000;}
+.rongyujiangxiangyyjxd2 .huojianghezuo4{background:url(/images/newindexspbanner3_4.png) 0 0 no-repeat #cc0000;}
+.rongyujiangxiangyyjxd2 .huojianghezuo5{background:url(/images/newindexspbanner3_5.png) 0 0 no-repeat #cc0000;}
 
 .rongyujiangxiangd8{width:553px;height:369px;margin:10px auto 30px;border:1px solid #b3b3b3;padding:10px;}
 .rongyujiangxiangd8 img{width:553px;height:369px;}
@@ -297,7 +297,7 @@ body { font-size:12px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 .rongyujiangxiangSP1 li{width:275px;padding:10px 7px;height:275px;float:left;margin-right:55px;}
 .rongyujiangxiangSP1 .p1{width:275px;height:157px;}
 .rongyujiangxiangSP1 .p1 img{width:275px;height:157px;}
-.rongyujiangxiangSP1 .p2{background: url(../images/stpbgimg2.jpg) 0px 11px no-repeat;line-height:16px;padding:10px 0px 10px 25px;}
+.rongyujiangxiangSP1 .p2{background: url(/images/stpbgimg2.jpg) 0px 11px no-repeat;line-height:16px;padding:10px 0px 10px 25px;}
 .rongyujiangxiangSP1 .p2 a{color:#000;font-size:14px;}
 .rongyujiangxiangSP1 .p2 a:hover{text-decoration: underline;color:#cc0000;}
 .rongyujiangxiangSP1 .p3 span{width:220px;color:#515151;}

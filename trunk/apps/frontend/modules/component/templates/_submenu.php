@@ -6,7 +6,7 @@ $culture = $sf_user->getCulture();
     <div class="layer1 fl">
         <!--S-logo Module-->
         <div class="logo">
-            <a href="/home" title="BFS"></a>
+            <a href="/home" title="Odin Capital"><img src="/images/logo.png" style="display: block; width: 115px; height:139px;;"/></a>
         </div>
         <!--E-logo Module-->
     </div>
@@ -16,33 +16,20 @@ $culture = $sf_user->getCulture();
         <!--S-The function navigation at the top of module-->
 
         <div class="topbar cl">
-            <ul>
-                <li><a class="chat" href="https://secure.livechatinc.com/licence/1941741/open_chat.cgi?groups=3" target="_blank">Live Chat</a></li>
-                <li class="mouseon">
 
-                    <a class="en" href="en.html">English</a>
-                    <div class="language">
-                        <a href="en.html" class="en">English</a><a href="cn.html" class="cn">简体中文</a><a href="tw.html" class="tw">繁体中文</a><a href="es.html" class="es">Español</a><a href="ar.html" class="ar">ﺎﻠﻋﺮﺒﻳﺓ</a><a href="ms.html" class="ms">Bahasa Melayu</a><a href="de.html" class="de">Deutsch</a><a href="ru.html" class="ru">Русский</a><a href="fr.html" class="fr">Français</a>
-
-                        <!--<a href="/in" class="in">Indonesia</a>-->
-                    </div>
-                </li>
-                <li><a class="content" href="en/support/Contact.html">Contact Us</a></li>
-                <li><a class="sitemap" href="en/Index/sitemap.html">Site Map</a></li>
-            </ul>
         </div>
         <!--E-The function navigation at the top of module-->
     </div>
     <div class="layer3 fr">
         <!--S-Member Login Module-->
         <div class="login cl">
-            <form action="http://account.bfsforex.com/Public/doLogins/l/en" method="post">
+            <form action="http://www.odincapital.com" method="post">
                 <input class="login-txt" type="text" name="username" value="username" id="login_username" />
                 <input class="login-txt" type="password" name="pass2word" value="password" id="login_password" />
                 <input type="hidden" name="jumpUrl" value="aHR0cDovL2FjY291bnQuYmZzZm9yZXguY29tL01lbWJlcg=="/>
-                <input class="login-btn" type="submit" value="Login" />
+                <input class="login-btn" type="button" value="Login" />
                 <input type="hidden" name="__hash__" value="6666cd76f96956469e7be39d750cc7d9_bf58a126bafac7d88124d75fcacef356" /></form>
-            <p><a href="http://account.bfsforex.com/Public/reg/l/en">&gt;&gt;Open Live Account</a><a href="Public/forget.html">&gt;&gt;Forgot password?</a></p>
+            <p><a href="">&gt;&gt;Open Live Account</a><a href="http://www.odincapital.com">&gt;&gt;Forgot password?</a></p>
         </div>
         <!--E-Member Login Module-->
 
@@ -55,12 +42,11 @@ $culture = $sf_user->getCulture();
                 <li><a href="/home">Home</a></li>
                 <li><a href="javascript:viod(0)">About us</a>
                     <ul>
-                        <li><a href="/about_us" target="_self">About BFSforex</a></li>
+                        <li><a href="/about_us" target="_self">About FxODIN</a></li>
                         <li><a href="/about_us/ecnBusinessModel" target="_self">ECN Business model</a></li>
                         <li><a href="/about_us/forSmallInvestors" target="_self">For Small Investors</a></li>
                         <li><a href="/about_us/bestIBChoice" target="_self">Best IB Choice</a></li>
-                        <li><a href="/about_us/hedgingInsurance" target="_self">Hedging insurance</a></li>
-                        <li><a href="/about_us/bfsForexTv" target="_self">BFSforex TV</a></li>
+                        <li><a href="/about_us/hedgingInsurance" target="_self">Hedging insurance</a></li></li>
                         <li><a href="/about_us/safetyOfFunds" target="_self">Safety of Funds</a></li>
                         <li><a href="/about_us/licensesAndRegulations" target="_self">Licenses and Regulations</a></li>
                         <li><a href="/about_us/awards" target="_self">Awards</a></li>

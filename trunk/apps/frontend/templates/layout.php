@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- Mirrored from www.bfsforex.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Mar 2015 03:19:59 GMT -->
+<!-- Mirrored from www.Odin Capital forex.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Mar 2015 03:19:59 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Forex Trading | Forex Broker | Forex Platforms-BFSforex.com</title>
+    <title>Forex Trading | Forex Broker | Forex Platforms-Odin Capital forex.com</title>
     <link href="/css/base.css" type="text/css" rel="stylesheet" />
     <link href="/css/model.css" type="text/css" rel="stylesheet" />
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
@@ -22,23 +22,6 @@
 <div class="container">
     <div class="inner cl">
     <?php echo $sf_data->getRaw('sf_content')?>
-
-        <div class="side">
-            <ul>
-                <li><a href="/promotions"><img src="/img/side1.png"></a></li>
-                <li><a href="/promotions/discountAccount"><img src="/img/side2.png"></a></li>
-                <li><a href="http://account.bfsforex.com/en/Public/reg"><img src="/img/side3.png"></a></li>
-                <li>
-                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="220" height="370" accesskey="index" tabindex="index" title="index">
-                        <param name="movie" value="/swf/side.swf">
-                        <param name="quality" value="high">
-                        <param name="wmode" value="transparent">
-                        <embed src="/swf/side.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="220" height="370">
-                    </object>
-                </li>
-
-            </ul>
-        </div>
     </div>
 </div>
 
@@ -48,8 +31,8 @@
 <script type="text/javascript" src="/js/swfobject.js"></script>
 <script type="text/javascript">
     var flashvars = {
-        file : '/img/flv/BFS_reports_01.flv',
-        image: '/img/flv/BFS_reporrts_01.jpg',
+        file : '/img/flv/Odin Capital_reports_01.flv',
+        image: '/img/flv/Odin Capital_reporrts_01.jpg',
         bufferlength : 5,
         volume : 100,
         controlbar : 'over',
@@ -158,16 +141,16 @@
 <div class="newfooterinnerd3">
     <a href="/content/Customer_Agreement.pdf">Customer Agreement</a>
     <a href="/content/Commercial_terms.pdf" target="_blank">Terms of Business</a><span></span>
-    <a href="/trading_accounts/riskDisclosureStatement">Trading and Execution Risks</a><span></span>
-    <a href="/trading_accounts/leverageTrading">Leverage</a><span></span>
-    <a href="/trading_accounts/privacyPolicy">Privacy Policy</a><span></span>
-    <a href="/trading_accounts/riskDisclosureStatement">Risk Disclosure Statement</a><span></span>
-
-</div><div class="newindexrhjx">
+    <a href="/trading_account/riskDisclosureStatement">Trading and Execution Risks</a><span></span>
+    <a href="/trading_account/tradingLeverage">Leverage</a><span></span>
+    <a href="/trading_account/privacyPolicy">Privacy Policy</a><span></span>
+    <a href="/trading_account/riskDisclosureStatement">Risk Disclosure Statement</a><span></span>
+</div>
+<div class="newindexrhjx">
     <div class="newindexrhjxinner">
         <div class="titd1">Awards</div>
         <div class="titd2">
-            <p>BFSforex is a global financial services company, depending on its professional technology, automation features and low-threshold,to participate in the international foreign</p>
+            <p>Odin Capital forex is a global financial services company, depending on its professional technology, automation features and low-threshold,to participate in the international foreign</p>
             <p>exchange transactions,not only won the admiration of customers, but also won the praises by various circles of society , which is a shining star in the FX market.</p>
         </div>
         <ul class="ul1">
@@ -259,12 +242,12 @@
                 <div class="d1_1d">
                     <p class="tit2">About Us</p>
                     <ul>
-                        <li><a href="/about_us">About BFSforex</a></li>
+                        <li><a href="/about_us">About Odin Capital forex</a></li>
                         <li><a href="/about_us/ecnBusinessModel">ECN Business model</a></li>
                         <li><a href="/about_us/forSmallInvestors">For Small Investors</a></li>
                         <li><a href="/about_us/bestIBChoice">Best IB Choice</a></li>
                         <li><a href="/about_us/hedgingInsurance">Hedging insurance</a></li>
-                        <li><a href="/about_us/bfsForexTV">BFSforex TV</a></li>
+                        <li><a href="/about_us/Odin Capital forexTV">Odin Capital forex TV</a></li>
                         <li><a href="/about_us/safetyOfFunds">Safety of Funds</a></li>
                         <li><a href="/about_us/licensesAndRegulations">Licenses and Regulations</a></li>
                         <li><a href="/about_us/awards">Awards</a></li>
@@ -314,12 +297,11 @@
             <div class="d1_2">
                 <div class="d2_d1">
                     <div class="logod"></div>
-                    <p class="p1">Copyright © 2011-2013 <br /> BFSforex All rights reserved.</p>
+                    <p class="p1">Copyright © 2011-2013 <br /> Odin Capital forex All rights reserved.</p>
                     <div class="btn">
-                        <a href="https://secure.livechatinc.com/licence/1941741/open_chat.cgi?groups=3" target="_blank" class="a1"></a>
-                        <a href="http://account.bfsforex.com/Public/login" target="_blank" class="a2"></a>
-                        <a href="en/support/Contact.html" class="a3"></a>
-                        <a href="en/Index/sitemap.html" class="a4"></a>
+                        <a href="#" target="_blank" class="a1"></a>
+                        <a href="#" target="_blank" class="a2"></a>
+                        <a href="/support" class="a3"></a>
                     </div>
                 </div>
             </div>
@@ -328,7 +310,7 @@
         <div class="d2">
             <p>＊ Note:rading on the Forex market involves significant risks, including complete possible loss of funds. Trading is not suitable for all investors and traders. By increasing leverage risk increases (Notice of Risk).
                 The service is not available for US residents</p>
-            <p>BFSforex provides you with educational resources to help you become familiar with all the trading features and tools in the trading platform. With the BFSforex practice account you can test any trading strategies you wish in a risk-free environment. Please bear in mind that the results of the transactions of the practice account are virtual, and do not reflect to any real profit or loss or real trading environment, whereas market conditions may affect both the quotation and execution. Forex products are leveraged products and trading forex therefore involves a high level of risk that may not be suitable for everyone. BFSforex recommends that you ensure that you fully understand the risks involved before making any decision concerning BFSforex's products. Independent advice should be sought if necessary. </p>
+            <p>Odin Capital forex provides you with educational resources to help you become familiar with all the trading features and tools in the trading platform. With the Odin Capital forex practice account you can test any trading strategies you wish in a risk-free environment. Please bear in mind that the results of the transactions of the practice account are virtual, and do not reflect to any real profit or loss or real trading environment, whereas market conditions may affect both the quotation and execution. Forex products are leveraged products and trading forex therefore involves a high level of risk that may not be suitable for everyone. Odin Capital forex recommends that you ensure that you fully understand the risks involved before making any decision concerning Odin Capital forex's products. Independent advice should be sought if necessary. </p>
         </div>
 
         <div class="clear"></div>
@@ -336,9 +318,9 @@
 </div>
 <!--/newfooter-->
 <div id="service_cnt">
-    <a class="s_red" href="http://account.bfsforex.com/Public/reg/l/en" target="_blank">Register<br />Trading Office</a>
-    <a class="s_blue" href="http://account.bfsforex.com/Public/login/l/en" target="_blank">Login<br />Trading Office</a>
-    <a class="s_green" href="Download/bfs4setup.exe" target="_blank">Download<br />BFSforex MT4</a>
+    <a class="s_red" href="" target="_blank">Register<br />Trading Office</a>
+    <a class="s_blue" href="http://www.odincapital.com" target="_blank">Login<br />Trading Office</a>
+    <a class="s_green" href="Download/OdinCapital4setup.exe" target="_blank">Download<br />Odin Capital forex MT4</a>
 </div>
 <script type="text/javascript">
     /* <![CDATA[ */
@@ -357,5 +339,5 @@
 
 </body>
 
-<!-- Mirrored from www.bfsforex.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Mar 2015 03:22:20 GMT -->
+<!-- Mirrored from www.Odin Capital forex.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Mar 2015 03:22:20 GMT -->
 </html>
